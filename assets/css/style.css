@@ -11,7 +11,7 @@
 html, body {
     width: 100%;
     min-height: 100%;
-    background-image: url("../images/blu_stripes.png");
+    background-image: url("../images/carbon_fibre_big.png");
     background-color: lightsteelblue;
 }
 
@@ -122,6 +122,10 @@ section {
 
 /* portfolio page */
 
+#mQcenter {
+    text-align: center;
+}
+
 .imgProject {
     display: inline-block;
     position: relative;
@@ -194,16 +198,12 @@ input[type=submit]:hover {
         max-width: 75%;
     }
 
-    #mQcenter {
-        text-align: center;
-    }
-    
     .img {
         width: 48%;
     }
 
     .imgProject {
-        margin: 32px 138px 32px 138px;
+        margin: 32px auto;
     }
 
 }
@@ -228,8 +228,50 @@ input[type=submit]:hover {
         max-width: 85%;
     }
 
-    #mQcenter {
+    .img {
+        display: block;
+        float: none;
+        width: 75%;
+        margin: 32px auto;
+    }
+
+    .imgProject {
+        position: relative;
+        margin: 32px 122px 32px 122px;
+    }
+
+    .banner {
+        position: absolute;
+        top: 140px;
+        width: 100%;
+        height: 64px;
+        background: #4aaaa5;
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 64px;
+        text-align:center;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    #divHeader {
+        width: 100%;
         text-align: center;
+    }
+
+    nav {
+        text-align: center;
+        padding: 16px;
+    }
+
+    #floatL, #floatR {
+        float: none;
+    }
+
+    section {
+        max-width: 85%;
     }
 
     .img {
@@ -241,7 +283,7 @@ input[type=submit]:hover {
 
     .imgProject {
         position: relative;
-        margin: 32px 122px 32px 122px;
+        margin: 32px auto;
     }
 
     .banner {
