@@ -1,0 +1,260 @@
+
+/* global */
+
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #ffffff;
+    color: #777777;
+    margin: auto;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    background-image: url("../images/blu_stripes.png");
+    background-color: lightsteelblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #777777;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+a:active {
+    color: #4aaaa5;
+}
+
+header {
+    width: 100%;
+    border-bottom: 2px solid #cccccc;
+}
+
+#divHeader {
+    max-width: 892px;
+}
+
+p {
+    line-height: 24px;
+    margin-top: -16px;
+    margin-bottom: 16px;
+    padding: 16px 0px;
+}
+
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 32px;
+}
+
+nav {
+    line-height: 32px;
+    text-align: right;
+    padding: 32px 16px 32px 32px;
+}
+
+h2 {
+    height: 48px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    border-bottom: 4px solid #dddddd;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 6px solid #4aaaa5;
+    background: #666666;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 64px;
+}
+
+/* bio page */
+
+#bio {
+    margin: 32px 0px;
+}
+
+/* bio pic position */
+
+.img {
+    width: 32%;
+    height: 32%;
+    float: left;
+    margin: 32px;
+}
+
+section {
+    max-width: 892px;
+    border: 2px solid #dddddd;
+    margin: 32px auto 88px auto;
+    padding: 32px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+/* portfolio page */
+
+.imgProject {
+    display: inline-block;
+    position: relative;
+    margin: 32px;
+}
+
+.banner {
+    position: absolute;
+    top: 140px;
+    width: 100%;
+    height: 64px;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 64px;
+    text-align:center;
+}
+
+a.label {
+    background: #4aaaa5;
+    color: #ffffff;
+
+}
+
+/* contact page */
+
+input[type=text], select, textarea {
+    resize: vertical;
+    width: 100%;
+    border: 1px solid #cccccc;
+    margin-top: 8px;
+    margin-bottom: 32px;
+    padding: 16px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: none;
+    padding: 16px 24px;
+}
+
+input[type=submit]:hover {
+    background-color: #777777;
+}
+
+.contact {
+    width: 90%;
+    background-color: #ffffff;
+    padding: 32px 48px 32px 8px;
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #divHeader {
+        width: 90%;
+    }
+
+    nav {
+        line-height: 32px;
+        padding: 32px 32px 32px 32px;
+    }
+
+    section {
+        max-width: 75%;
+    }
+
+    #mQcenter {
+        text-align: center;
+    }
+    
+    .img {
+        width: 48%;
+    }
+
+    .imgProject {
+        margin: 32px 138px 32px 138px;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    #divHeader {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        text-align: center;
+        padding: 16px;
+    }
+
+    #floatL, #floatR {
+        float: none;
+    }
+
+    section {
+        max-width: 85%;
+    }
+
+    #mQcenter {
+        text-align: center;
+    }
+
+    .img {
+        display: block;
+        float: none;
+        width: 75%;
+        margin: 32px auto;
+    }
+
+    .imgProject {
+        position: relative;
+        margin: 32px 122px 32px 122px;
+    }
+
+    .banner {
+        position: absolute;
+        top: 140px;
+        width: 100%;
+        height: 64px;
+        background: #4aaaa5;
+        color: #ffffff;
+        font-size: 22px;
+        line-height: 64px;
+        text-align:center;
+    }
+
+}
+
