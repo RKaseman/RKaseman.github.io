@@ -179,6 +179,10 @@ input[type=submit]:hover {
     padding: 32px 48px 32px 8px;
 }
 
+textarea {
+    height: 192px;
+}
+
 @media only screen and (max-width: 980px) {
 
 }
