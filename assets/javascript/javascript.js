@@ -1,15 +1,15 @@
 
-// // Initialize Firebase
-// var config = {
-//     apiKey: "AIzaSyBmeleQU0z3P1C6sbEnlStaE7msi-2JzxM",
-//     authDomain: "trains-35781.firebaseapp.com",
-//     databaseURL: "https://trains-35781.firebaseio.com",
-//     projectId: "trains-35781",
-//     storageBucket: "trains-35781.appspot.com",
-//     messagingSenderId: "755160834451"
-// };
+// Initialize Firebase
+var config = {
+    apiKey: "AIzaSyBBLsnOiPUrdDk2pWlQkR6eN9NmhXA5iFM",
+    authDomain: "githubcontactdb.firebaseapp.com",
+    databaseURL: "https://githubcontactdb.firebaseio.com",
+    projectId: "githubcontactdb",
+    storageBucket: "githubcontactdb.appspot.com",
+    messagingSenderId: "642765346011"
+};
 
-// firebase.initializeApp(config);
+firebase.initializeApp(config);
 
 var name = "";
 var guestEmail = "";
