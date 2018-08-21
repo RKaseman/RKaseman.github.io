@@ -20,6 +20,9 @@ body {
 /* typography on nav */
 a {
     text-decoration: none;
+}
+
+.navLink {
     padding: 16px 4px;
 }
 
