@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EoaC--Khan Academy Project: Make it Rain</title>
+
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+    <!-- $ajax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js" integrity="sha256-NLLibs1jQZNnV59vwp+9dMxTdhKAeqKbl3XzgYzQyso="
+        crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/EMreset.css"> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Poly%7cMerienda%7cGaldeano" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/mQ.css">
+
+</head>
+
+<body>
+    <header class="clearfix">
+        <div id="divHeader">
+            <div class="floatL" id="floatL">
+                <h1>Rane M Kaseman</h1>
+            </div>
+            <div class="floatR" id="floatR">
+                <nav>
+                    <a href="./index.html" class="navLink">About</a>  |  
+                    <a href="./portfolio.html" class="navLink">Portfolio</a>  |  
+                    <a href="./contact.html" class="navLink">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            <h2>Khan Academy Project: Make it Rain</h2>
+        </div>
+        <div id="displayCase">
+            <!-- alt proessingJS canvas method -->
+            <canvas id="mycanvas" class="canvasKApJS"></canvas>
+            <button id="startBtn">Start (eventually)</button>
+            <button id="stopBtn">Stop (eventually)</button>
+        </div>
+
+        <div id="bio">
+            <p>
+                <!-- add href -->
+                 Months before I started coding bootcamp I worked on some of the lessons at <a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a> for practice and preparation.
+            </p>
+            <p>
+                 I was quickly enamoured with processing.js.
+            </p>
+            <p>
+                 Although this project's title is "Make it Rain", I went the snow route because as I was coding it I thought slower falling motion was looking pretty cool. And about the snowman's head? It was a Khan Academy avatar. When I wrote my own page to feature it, I had to comment out the lines of code that called for it so it wouldn't stop the script from running. (Sorry, little guy!) It was a fun and coder-maddening challenge to get it from Khan Academy's lesson canvas onto my own page considering how much I didn't know at the time. The next step of this particular challenge is wiring the start and stop buttons.
+            </p>
+            <p>
+                 Who can tell me why the sparkly effect happens? No one, yet. I produced it quite by accident, and it's awesome. I was working on limiting the saturation of the snow effect and all of a sudden: sparkles! (If you're not seeing it, wait and watch a moment longer.)
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        &#169; 2018 RMK
+    </footer>
+
+    <script src="./assets/javascript/processing-1.4.8.min.js"></script>
+    <script src="./assets/javascript/javascript.js"></script>
+    <script src="./assets/javascript/javascript-kapjs.js"></script>
+
+    <script type="application/javascript">
+        //get the canvas that Processing-js will use
+        var canvas = document.getElementById("mycanvas");
+            //pass the function sketchProc (defined in myCode.js) to Processing's constructor.
+            var processingInstance = new Processing(canvas, sketchProc);
+    </script>
+
+</body>
+
+</html>
+
