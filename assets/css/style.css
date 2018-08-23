@@ -137,13 +137,18 @@ footer {
     margin: 32px;
 }
 
+img.effect {
+    opacity: 0.64;
+    filter: blur(1px) brightness(48%);
+    /* filter: brightness(32%); */
+}
+
 .banner {
     position: absolute;
-    top: 140px;
+    top: 136px;
     width: 100%;
     height: 64px;
     background: #112288;
-    color: #4682b4;
     font-size: 22px;
     line-height: 32px;
     text-align:center;
@@ -151,7 +156,7 @@ footer {
 
 a.label {
     background: #112288;
-    color: #4682b4;
+    color: #add8e6;
 }
 
 /* contact page */
