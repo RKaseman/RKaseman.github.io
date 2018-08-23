@@ -23,7 +23,9 @@ a {
 }
 
 .navLink {
-    padding: 16px 4px;
+    border-left: 1px solid #bbbbdd;
+    border-right: 1px solid #bbbbdd;
+    padding: 4px;
 }
 
 a:link {
@@ -110,6 +112,7 @@ footer {
 /* bio page */
 #bio {
     margin: 32px 0px;
+    min-height: 464px;
 }
 
 .img {
@@ -140,7 +143,6 @@ footer {
 img.effect {
     opacity: 0.64;
     filter: blur(1px) brightness(48%);
-    /* filter: brightness(32%); */
 }
 
 .banner {

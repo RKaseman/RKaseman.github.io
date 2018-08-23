@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Evolution of a Coder--Contact</title>
+    <title>EoaC--Khan Academy Project: Build-a-House</title>
 
     <!-- firebase -->
     <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
@@ -48,38 +48,41 @@
 
     <section>
         <div>
-            <h2>Contact an evolved coder!</h2>
+            <h2>Khan Academy Project: Build-a-House</h2>
         </div>
-        <form method="post">
-            <div class="contact">
-                <p>
-                    <label for="name">Name</label>
-                </p>
-                <input type="text" id="name" name="name" placeholder="And you are?">
-            </div>
-            <div class="contact">
-                <p>
-                    <label for="email">I'll show you mine</label>
-                </p>
-                <input type="email" id="guestEmail" name="emailAddress" placeholder="Your email?">
-            </div>
-            <div class="contact">
-                <p>
-                    <label for="subject">What...</label>
-                </p>
-                <textarea id="subject" name="subject" placeholder="...can I do for you?"></textarea>
-            </div>
-            <div class="contact">
-                <input type="button" id="sendForm" value="Submit">
-            </div>
-        </form>
+        <div id="displayCase">
+            <!-- alt proessingJS canvas method -->
+            <canvas id="mycanvas" class="canvasKApJS"></canvas>
+        </div>
+
+        <div id="bio">
+            <p>
+                <!-- add href -->
+                 Months before I started coding bootcamp I worked on some of the lessons at <a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a> for practice and preparation.
+            </p>
+            <p>
+                 I was quickly enamoured with processing.js.
+            </p>
+            <p>
+                 The title of the lesson is "Build-a-House".  My personal title is "The Etheriel Space House". The star field randomly generates on page load or refresh.
+            </p>
+        </div>
     </section>
 
     <footer>
         &#169; 2018 RMK
     </footer>
 
+    <script src="./assets/javascript/processing-1.4.8.min.js"></script>
     <script src="./assets/javascript/javascript.js"></script>
+    <script src="./assets/javascript/javascript-kapBaH.js"></script>
+
+    <script type="application/javascript">
+        //get the canvas that Processing-js will use
+        var canvas = document.getElementById("mycanvas");
+            //pass the function sketchProc (defined in myCode.js) to Processing's constructor.
+            var processingInstance = new Processing(canvas, sketchProc);
+    </script>
 
 </body>
 
