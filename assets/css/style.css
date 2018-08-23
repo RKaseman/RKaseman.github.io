@@ -2,13 +2,16 @@
 * {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: #eeeeee;
+
     color: #000000;
+
     margin: auto;
 }
 
 html {
     width: 100%;
     min-height: 100%;
+
     background-image: url("../images/carbon_fibre_big.png");
     background-color: #eeeeee;
 }
@@ -25,6 +28,7 @@ a {
 .navLink {
     border-left: 1px solid #bbbbdd;
     border-right: 1px solid #bbbbdd;
+
     padding: 4px;
 }
 
@@ -37,17 +41,19 @@ a:visited {
 }
 
 a:hover {
-    background-color: darkblue;
+    background-color: #00008b;
+
     color: #add8e6;
 }
 
 a:active {
-    color: darkblue;
+    color: #00008b;
 }
 
 /* header */
 header {
     width: 100%;
+
     border-bottom: 4px solid #4682b4;
 }
 
@@ -57,8 +63,10 @@ header {
 
 h1 {
     font-family: 'Poly', Times, Times New Roman, serif;
-    background: darkblue;
+    background: #00008b;
+
     color: #add8e6;
+
     padding: 32px;
 }
 
@@ -73,13 +81,16 @@ h1 {
 nav {
     line-height: 32px;
     text-align: right;
+
     padding: 32px 16px 32px 32px;
 }
 
 /* content */
 section {
     max-width: 892px;
+
     border: 4px solid #4682b4;
+
     margin: 32px auto 88px auto;
     padding: 32px;
 }
@@ -87,12 +98,15 @@ section {
 h2 {
     height: 48px;
     font-family: 'Poly', Times, Times New Roman, serif;
-    color: darkblue;
+
+    color: #00008b;
+
     border-bottom: 4px solid #4682b4;
 }
 
 p {
     line-height: 24px;
+
     padding: 16px 0px;
 }
 
@@ -101,8 +115,11 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+
     border-top: 4px solid #4682b4;
+
     background: #eeeeee;
+
     color: #4682b4;
     text-align: center;
     font-size: 12px;
@@ -111,15 +128,18 @@ footer {
 
 /* bio page */
 #bio {
-    margin: 32px 0px;
     min-height: 464px;
+
+    margin: 32px 0px;
 }
 
 .img {
     /* bio pic position */
     float: left;
+
     width: 32%;
     height: 32%;
+
     margin: 40px 32px 16px 0px;
 }
 
@@ -137,6 +157,7 @@ footer {
 .imgProject {
     display: inline-block;
     position: relative;
+
     margin: 32px;
 }
 
@@ -145,20 +166,19 @@ img.effect {
     filter: blur(1px) brightness(48%);
 }
 
-.banner {
+a.label {
     position: absolute;
+
     top: 136px;
+    left: 0px;
     width: 100%;
     height: 64px;
+
     background: #112288;
+
+    color: #add8e6;
     font-size: 22px;
     line-height: 32px;
-    text-align:center;
-}
-
-a.label {
-    background: #112288;
-    color: #add8e6;
 }
 
 /* contact page */
@@ -168,9 +188,12 @@ label.for {
 
 input[type=text], textarea {
     cursor: pointer;
+
     width: 96%;
     background-color: #ffffff;
+
     border: 2px solid #4682b4;
+
     margin-top: 8px;
     margin-bottom: 32px;
     padding: 16px;
@@ -178,10 +201,12 @@ input[type=text], textarea {
 
 input[type=email] {
     cursor: pointer;
+
     width: 96%;
     background-color: #ffffff;
+
     border: 2px solid #4682b4;
-    /* color: #ffffff; */
+
     margin-top: 8px;
     margin-bottom: 32px;
     padding: 16px;
@@ -189,19 +214,24 @@ input[type=email] {
 
 input[type=button] {
     cursor: pointer;
+
     background-color: #4682b4;
+
     color: #ffffff;
+
     border: none;
     padding: 16px;
 }
 
 input[type=button]:hover {
-    background-color: darkblue;
+    background-color: #00008b;
+
     color: #add8e6;
 }
 
 .contact {
     border-top: 1px solid #4682b4;
+
     padding: 16px;
 }
 
@@ -225,6 +255,7 @@ textarea {
     position: absolute;
     bottom: 16px;
     left: 16px;
+
     margin: 8px auto;
 }
 
@@ -232,6 +263,7 @@ textarea {
     position: absolute;
     bottom: 16px;
     right: 48px;
+
     margin: 8px auto;
 }
 
