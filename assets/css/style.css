@@ -1,6 +1,7 @@
 
 * {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
     background: #eeeeee;
 
     color: #000000;
@@ -10,7 +11,7 @@
 
 html {
     width: 100%;
-    min-height: 100%;
+    height: 100%;
 
     background-image: url("../images/carbon_fibre_big.png");
     background-color: #eeeeee;
@@ -20,7 +21,7 @@ body {
     background-image: url("../images/carbon_fibre_big.png");
 }
 
-/* typography on nav */
+/* typography on nav elements */
 a {
     text-decoration: none;
 }
@@ -63,6 +64,7 @@ header {
 
 h1 {
     font-family: 'Poly', Times, Times New Roman, serif;
+
     background: #00008b;
 
     color: #add8e6;
@@ -128,19 +130,17 @@ footer {
     padding: 12px 0px;
 }
 
-/* bio page */
+/* index */
 #bio {
-    min-height: 464px;
-
     margin: 32px 0px;
 }
 
 .img {
-    /* bio pic position */
+    /* position */
     float: left;
 
-    width: 32%;
-    height: 32%;
+    width: 34%;
+    height: 34%;
 
     margin: 40px 32px 16px 0px;
 }
@@ -151,7 +151,7 @@ footer {
     display: block;
 }
 
-/* portfolio page */
+/* portfolio */
 #mQcenter {
     text-align: center;
 }
@@ -174,7 +174,6 @@ a.label {
     top: 136px;
     left: 0px;
     width: 100%;
-    height: 64px;
 
     background: #112288;
 
@@ -183,69 +182,25 @@ a.label {
     line-height: 32px;
 }
 
-/* contact page */
-label.for {
-    min-width: 100%;
-}
-
-input[type=text], textarea {
-    cursor: pointer;
-
-    width: 96%;
-    background-color: #ffffff;
-
-    border: 2px solid #4682b4;
-
-    margin-top: 8px;
-    margin-bottom: 32px;
-    padding: 16px;
-}
-
-input[type=email] {
-    cursor: pointer;
-
-    width: 96%;
-    background-color: #ffffff;
-
-    border: 2px solid #4682b4;
-
-    margin-top: 8px;
-    margin-bottom: 32px;
-    padding: 16px;
-}
-
-input[type=button] {
-    cursor: pointer;
-
-    background-color: #4682b4;
-
-    color: #ffffff;
-
-    border: none;
-    padding: 16px;
-}
-
-input[type=button]:hover {
-    background-color: #00008b;
-
-    color: #add8e6;
-}
-
+/* contact */
 .contact {
+    text-align: center;
     font-size: 2.2vw;
 
-    border-top: 1px solid #4682b4;
-
     padding: 16px;
 }
 
-textarea {
-    resize: vertical;
-    height: 192px;
+.spacer {
+    border-top: 0.5px solid #4682b4;
+    border-bottom: 0.5px solid #4682b4;
+
+    margin: 32px auto;
+
+    padding: 112px;
 }
 
 /* ka-makeItRain */
-#displayCase {
+.displayCase {
     float: left;
     position: relative;
 }
