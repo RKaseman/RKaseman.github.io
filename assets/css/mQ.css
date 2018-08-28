@@ -49,6 +49,10 @@
         padding:16px;
     }
 
+    #mycanvas {
+        width: 300px;
+    }
+
 }
 
 @media only screen and (max-width: 640px) {
@@ -91,6 +95,10 @@
         margin: 8px;
 
         padding:16px;
+    }
+
+    #mycanvas {
+        width: 256px;
     }
 
 }
@@ -156,6 +164,39 @@
         margin: 8px;
 
         padding:16px;
+    }
+
+    .displayCase {
+        display: block;
+        float: none;
+
+        text-align: center;
+
+        margin: 0px auto;
+    }
+
+    #mycanvas {
+        width: 200px;
+    }
+
+    .canvasKApJS {
+        margin: 40px auto;
+    }
+
+    #startBtn {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+
+        margin: 8px auto;
+    }
+
+    #stopBtn {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+
+        margin: 8px auto;
     }
 
 }
