@@ -97,8 +97,21 @@
         padding:16px;
     }
 
+    .displayCase {
+        display: block;
+        float: none;
+
+        text-align: center;
+
+        margin: 0px auto;
+    }
+
     #mycanvas {
         width: 256px;
+    }
+
+    .canvasKApJS {
+        margin: 40px auto;
     }
 
 }
