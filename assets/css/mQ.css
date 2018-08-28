@@ -114,6 +114,22 @@
         margin: 40px auto;
     }
 
+    #startBtn {
+        position: absolute;
+        bottom: 8px;
+        left: 128px;
+
+        margin: 8px auto;
+    }
+
+    #stopBtn {
+        position: absolute;
+        bottom: 8px;
+        right: 128px;
+
+        margin: 8px auto;
+    }
+
 }
 
 @media only screen and (max-width: 320px) {
