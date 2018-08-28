@@ -90,6 +90,7 @@ nav {
 /* content */
 section {
     width: 52%;
+    min-height: 640px;
 
     border: 4px solid #4682b4;
 
