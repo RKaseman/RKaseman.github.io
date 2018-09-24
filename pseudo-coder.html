@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Evolution of a Coder--Pseudo-Coder</title>
+
+    <!-- $ajax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js" integrity="sha256-NLLibs1jQZNnV59vwp+9dMxTdhKAeqKbl3XzgYzQyso="
+        crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/EMreset.css"> -->
+
+    <link href="https://fonts.googleapis.com/css?family=Poly%7cMerienda%7cGaldeano" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/mQ.css">
+
+</head>
+
+<body>
+    <header class="clearfix">
+        <div id="divHeader">
+            <div class="floatL" id="floatL">
+                <h1>Rane M Kaseman</h1>
+            </div>
+            <div class="floatR" id="floatR">
+                <nav>
+                    <a href="./index.html" class="navLink">About</a>
+                    <a href="./portfolio.html" class="navLink">Portfolio</a>
+                    <a href="./contact.html" class="navLink">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div>
+            <h2>Evolution of a Coder</h2>
+        </div>
+        <div id="bio">
+            <p>
+                Here it is.
+            </p>
+            <p>
+                Some SharePoint code I worked on for my previous employer.
+            </p>
+            <p>
+                It was never what I wrote because SharePoint has the in-the-background habit of bloating and mangling code beyond all recognition. Even as an untrained amateur I was frustrated that what I put in was never what I got back and I Googled hoping for a way to prevent it. "Tough luck" was the answer. If I were tackling the same projects in the SharePoint environment today, I wonder how differently I'd approach it.
+            </p>
+            <p>
+                I enjoyed doing SharePoint work in spite of its flaws. It kept me dreaming of coding.
+            </p>
+            <p>
+                The code was copied directly from SharePoint's HTML editor into a Word document. When I was ready to add it to my portfolio I copied it from the Word document into VSCode, saw all of the warnings it generated and outdated, inline style tags it contained, and got to noting and fixing the worst offenders -- because I'll never push files that contain editor error warnings, and troubleshooting is a fun puzzle.
+            </p>
+            <p>
+                5 grouped warnings: "semi-colon expected (css-semicolonexpected)", "{ expected (css-lcurlyexpected)" and "at-rule or selector expected
+                (css-ruleorselectorexpected)" because the inner quotation marks of this example were printed as the UTF-8 <em>entity</em> value.
+                <textarea class="example" readonly><span style="font: 7pt 'times new roman'"></textarea>
+            </p>
+            <p>
+                8 warnings: "Unknown property: 'tab-stops' (unknownProperties)"
+                <textarea class="example" readonly>tab-stops: .25in</textarea>
+            </p>
+            <p>
+                65 instances:
+                <textarea class="example">font face="Calibri"</textarea>
+            </p>
+            <p>
+                3 instances:
+                <textarea class="example">align="center"</textarea>
+            </p>
+            <p>
+                3 instances:
+                <textarea class="example">border="1"</textarea>
+            </p>
+            <p>
+                3 instances:
+                <textarea class="example">font size="2"</textarea>
+            </p>
+            <p>
+                3 instances:
+                <textarea class="example">font color="#4f81bd"</textarea>
+            </p>
+            <br>
+            <textarea id="snippet" readonly><div class="ms-rteFontSize-3" style="margin: 0in 0in 0pt 0.5in; line-height: normal; text-indent: -0.25in;">
+    <div style="margin: 0in 0in 0pt; line-height: normal;">
+        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+            <b><span style="font-size: 22pt">Sony Anycast Switcher</span></b>
+        </div>
+        <div style="margin: 0in 0in 0pt; line-height: normal">
+            <div style="margin: 0in 0in 0pt; line-height: normal">
+                <div style="margin: 0in 0in 0pt; line-height: normal;">
+                    <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                        <b><span style="font-size: 16pt">Basic Operation</span></b>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <b><u><span style="font-size: 12pt">Getting started</span></u></b>
+                        <b><u><span style="font-size: 10pt"></span></u></b>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt 0.5in; line-height: normal; text-indent: -0.25in;">
+                        <span>
+                            <span>1.
+                                <span style="font: 7pt times new roman">&#160;&#160;&#160;&#160;&#160;&#160;</span>
+                            </span>
+                        </span>
+                        <span>To open Anycast carefully unlatch the screen cover clips at both top/front corners and fold it back.</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt 0.5in; line-height: normal; text-indent: -0.25in;">
+                        <span>
+                            <span>2.
+                                <span style="font: 7pt times new roman">&#160;&#160;&#160;&#160;&#160;&#160;</span>
+                            </span>
+                        </span>
+                        <span>Release the latches on either side of the Anycast screen by slidingthem toward you, then pull up to lock the screen in its open position.</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt 0.5in; line-height: normal; text-indent: -0.25in;">
+                        <span>
+                            <span>3.
+                                <span style="font: 7pt times new roman">&#160;&#160;&#160;&#160;&#160;&#160;</span>
+                            </span>
+                        </span>
+                        <span>The power button is along the left side and toward the back of the unit.</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal;">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal;">
+                        <span>To shut down Anycast, press the power button. A confirmation prompt will appear. Press <b>Yes</b> to continue or <b>No</b> to cancel. Follow steps 1-3 above in reverse order.</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>The Anycast upper screen shows 3 columns of information</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div>
+                        <table width="480" class="MsoTableGrid" cellspacing="1" cellpadding="0" style="border-top: windowtext 1pt solid; border-right: windowtext 1pt solid; width: 5in; border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid">
+                            <tbody>
+                                <tr style="height: 0.2in">
+                                    <td width="154" style="border-top: windowtext 3.75pt double; height: 0.2in; border-right: windowtext 3.75pt double; width: 115.6pt; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>Input</span></b>
+                                        </div>
+                                    </td>
+                                    <td width="154" style="border-top: windowtext 3.75pt double; height: 0.2in; border-right: windowtext 3.75pt double; width: 115.55pt; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>PGM/PVW</span></b>
+                                        </div>
+                                    </td>
+                                    <td width="168" style="border-top: windowtext 3.75pt double; height: 0.2in; border-right: windowtext 3.75pt double; width: 126.05pt; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>Option</span></b>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="text-align: center; margin: 0in 0in 0pt">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="text-align: center; margin: 0in 0in 0pt">
+                        <strong>Table <span>1</span>: Anycast Upper Screen Display Columns</strong>
+                    </div>
+                    <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span style="font-size: 10pt">Note: There is no need to change anything in the <b>Option </b>column.</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <b><u><span style="font-size: 12pt">Video</span></u></b>
+                        <b><u><span style="font-size: 10pt"></span></u></b>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>The left side of the Anycast upper screen contains <b>Inputs</b> or video sources for air.</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div>
+                        <table width="480" class="MsoTableGrid" cellspacing="1" cellpadding="0" style="border-top: windowtext 1pt solid; border-right: windowtext 1pt solid; border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid">
+                            <tbody>
+                                <tr style="height: 0.2in">
+                                    <td width="382" style="border-top: windowtext 3.75pt double; height: 0.2in; border-right: windowtext 3.75pt double; width: 286.6pt; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>Camera 8: WX Camera</span></b>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="height: 0.2in">
+                                    <td width="382" style="border-top: windowtext 3.75pt double; height: 0.2in; border-right: windowtext 3.75pt double; width: 286.6pt; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>IN 2 ‐ No input</span></b>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="height: 0.2in">
+                                    <td width="382" style="border-top: windowtext 3.75pt double; height: 0.2in; border-right: windowtext 3.75pt double; width: 286.6pt; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>Camera 9: Newsroom Camera</span></b>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="height: 0.2in">
+                                    <td width="382" style="border-top: windowtext 3.75pt double; height: 0.2in; border-right: windowtext 3.75pt double; width: 286.6pt; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>IN 4 ‐ No input</span></b>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="height: 0.2in">
+                                    <td width="382" style="border-top: windowtext 3.75pt double; height: 0.2in; border-right: windowtext 3.75pt double; width: 286.6pt; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>WX Computer</span></b>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="height: 0.2in">
+                                    <td width="382" style="border-top: windowtext 3.75pt double; height: 0.2in; border-right: windowtext 3.75pt double; width: 286.6pt; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>FS 441: Frame Store 441</span></b>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr style="height: 0.2in">
+                                    <td width="382" style="border-top: windowtext 3.75pt double; height: 0.2in; border-right: windowtext 3.75pt double; width: 286.6pt; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>Black</span></b>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="text-align: center; margin: 0in 0in 0pt">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="text-align: center; margin: 0in 0in 0pt">
+                        <strong>Table 2: Anycast Video Sources</strong>
+                    </div>
+                    <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <span style="font-size: 12pt; font-family: calibri, sans-serif; line-height: 115%">
+                        <br clear="all" style="page-break-before: always" />
+                    </span>
+                    <div style="margin: 0in 0in 10pt">
+                        <span style="font-size: 12pt; line-height: 115%">&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <b><u><span style="font-size: 12pt">Audio</span></u></b>
+                        <b><u><span style="font-size: 10pt"></span></u></b>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>The Anycast lower screen is audio controls. No other audio is configured other than the 2 labeled sources. To select an audio source for air press the desired number. Your choice will be highlighted. Check that your audio choice and the <b>PGM</b> audio fader are both potted up.</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>Levels can be checked on the audio meter to the right. To listen to an audio source without airing it, press and hold <b>PFL</b> (Pre Fader Listen). A powered speaker has been installed to monitor audio output.</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div>
+                        <table width="576" class="MsoTableGrid" cellspacing="1" cellpadding="0" style="border-top: windowtext 1pt solid; border-right: windowtext 1pt solid; border-bottom: windowtext 1pt solid; border-left: windowtext 1pt solid">
+                            <tbody>
+                                <tr style="height: 54.25pt">
+                                    <td width="96" style="border-top: windowtext 3.75pt double; height: 54.25pt; border-right: windowtext 3.75pt double; width: 1in; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span style="font-size: 12pt">RF WX1</span></b>
+                                        </div>
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span style="font-size: 9pt">Weather Wireless Mic</span></b><b></b>
+                                        </div>
+                                    </td>
+                                    <td width="96" style="border-top: windowtext 3.75pt double; height: 54.25pt; border-right: windowtext 3.75pt double; width: 1in; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span style="font-size: 12pt">IHC HW</span></b><b></b>
+                                        </div>
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span style="font-size: 9pt">Interactive Help Center Hardwire Mic</span></b><b></b>
+                                        </div>
+                                    </td>
+                                    <td width="96" style="border-top: windowtext 3.75pt double; height: 54.25pt; border-right: windowtext 3.75pt double; width: 1in; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>N/A</span></b>
+                                        </div>
+                                    </td>
+                                    <td width="96" style="border-top: windowtext 3.75pt double; height: 54.25pt; border-right: windowtext 3.75pt double; width: 1in; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>N/A</span></b>
+                                        </div>
+                                    </td>
+                                    <td width="96" style="border-top: windowtext 3.75pt double; height: 54.25pt; border-right: windowtext 3.75pt double; width: 1in; border-bottom: windowtext 3.75pt double; padding-bottom: 2.9pt; padding-top: 2.9pt; padding-left: 2.9pt; border-left: windowtext 3.75pt double; padding-right: 2.9pt; background-color: transparent">
+                                        <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                                            <b><span>N/A</span></b>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="text-align: center; margin: 0in 0in 0pt">
+                        <strong>Table 3: Anycast Audio Sources<s></s></strong>
+                    </div>
+                    <div style="text-align: center; margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span style="font-size: 10pt">Note: The &quot;Monitor Level&quot; audio fader controls an inferior internal speaker.</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <b><u><span style="font-size: 12pt">Anycast on the Air</span></u></b><b><u>
+                            <span style="font-size: 10pt"></span></u></b>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span>&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span style="color: black">To select a video source press your choice from the list in the Input area and the source appears in the </span>
+                        <b><span style="color: lime">NEXT</span></b>
+                        <span style="color: lime"> </span>
+                        <span style="color: black">(PVW) area.</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span style="color: black">&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span style="color: black">Pressing <b>Take</b> will put the source on</span>
+                        <b><span style="color: red">PGM</span></b>
+                        <span style="color: red"> </span>
+                        <span style="color: black">(AIR).</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span style="color: black">&#160;</span>
+                    </div>
+                    <div style="margin: 0in 0in 0pt; line-height: normal">
+                        <span style="color: black">Since the Anycast is for emergency use only, all transitions should be<b>Take</b>.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</textarea>
+        </div>
+    </section>
+
+    <footer>
+        <a href="mailto:rmkaseman@gmail.com" class="navLink">Email</a>
+        <a href="https://github.com/RKaseman" class="navLink" target="_blank">gitHub</a>
+        <a href="https://www.linkedin.com/in/rmkaseman-evolution-of-a-coder/" class="navLink" target="_blank">linkedIn</a>
+        <br>
+        &#169; 2018 RMK
+    </footer>
+
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+    <script src="./assets/javascript/javascript.js"></script>
+
+</body>
+
+</html>
+
