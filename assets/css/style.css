@@ -1,18 +1,14 @@
 
 * {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
     background: #eeeeee;
-
     color: #000000;
-
     margin: auto;
 }
 
 html {
     width: 100%;
     height: 100%;
-
     background-image: url("../images/carbon_fibre_big.png");
     background-color: #eeeeee;
 }
@@ -29,7 +25,6 @@ a {
 .navLink {
     border-left: 1px solid #bbbbdd;
     border-right: 1px solid #bbbbdd;
-
     padding: 4px;
 }
 
@@ -43,7 +38,6 @@ a:visited {
 
 a:hover {
     background-color: #00008b;
-
     color: #add8e6;
 }
 
@@ -54,7 +48,6 @@ a:active {
 /* header */
 header {
     width: 100%;
-
     border-bottom: 4px solid #4682b4;
 }
 
@@ -64,11 +57,8 @@ header {
 
 h1 {
     font-family: 'Poly', Times, Times New Roman, serif;
-
     background: #00008b;
-
     color: #add8e6;
-
     padding: 32px;
 }
 
@@ -83,7 +73,6 @@ h1 {
 nav {
     line-height: 32px;
     text-align: right;
-
     padding: 32px 16px 32px 32px;
 }
 
@@ -91,9 +80,7 @@ nav {
 section {
     width: 52%;
     min-height: 640px;
-
     border: 4px solid #4682b4;
-
     margin: 32px auto 88px auto;
     padding: 32px;
 }
@@ -101,15 +88,12 @@ section {
 h2 {
     height: 48px;
     font-family: 'Poly', Times, Times New Roman, serif;
-
     color: #00008b;
-
     border-bottom: 4px solid #4682b4;
 }
 
 p {
     line-height: 24px;
-
     padding: 16px 0px;
 }
 
@@ -118,11 +102,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-
     border-top: 4px solid #4682b4;
-
     background: #eeeeee;
-
     color: #4682b4;
     text-align: center;
     font-size: 12px;
@@ -139,10 +120,8 @@ footer {
 .img {
     /* position */
     float: left;
-
     width: 34%;
     height: 34%;
-
     margin: 40px 32px 16px 0px;
 }
 
@@ -160,7 +139,6 @@ footer {
 .imgProject {
     display: inline-block;
     position: relative;
-
     margin: 32px;
 }
 
@@ -171,13 +149,10 @@ img.effect {
 
 a.label {
     position: absolute;
-
     top: 136px;
     left: 0px;
     width: 100%;
-
     background: #112288;
-
     color: #add8e6;
     font-size: 22px;
     line-height: 32px;
@@ -187,16 +162,13 @@ a.label {
 .contact {
     text-align: center;
     font-size: 2.2vw;
-
     padding: 16px;
 }
 
 .spacer {
     border-top: 0.5px solid #4682b4;
     border-bottom: 0.5px solid #4682b4;
-
     margin: 32px auto;
-
     padding: 112px;
 }
 
@@ -215,7 +187,6 @@ a.label {
     position: absolute;
     bottom: 16px;
     left: 16px;
-
     margin: 8px auto;
 }
 
@@ -223,7 +194,6 @@ a.label {
     position: absolute;
     bottom: 16px;
     right: 48px;
-
     margin: 8px auto;
 }
 
