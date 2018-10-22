@@ -1,12 +1,14 @@
 
 * {
-    background-color: #dddddd;
+    background-color: #cccccc;
 }
 
 html, body {
-    font-family: 'Galdeano', 'Arial', 'Helvetica Neue', Helvetica,  sans-serif;
     background-image: url("../images/carbon_fibre_big.png");
     background-color: #666666;
+
+    /* typography */
+    font-family: 'Galdeano', 'Arial', 'Helvetica Neue', Helvetica,  sans-serif;
     color: #222222;
 }
 
@@ -14,7 +16,8 @@ html, body {
 .navLink {
     border-left: 1px solid #bbbbdd;
     border-right: 1px solid #bbbbdd;
-    padding: 4px;
+
+    padding: 2px;
 }
 
 /* typography, links */
@@ -28,6 +31,7 @@ a:link, a:visited {
 
 a:hover {
     background-color: #00008b;
+
     color: #add8e6;
 }
 
@@ -37,7 +41,9 @@ a:active {
 
 /* header */
 header {
+    /* typography */
     font-size: 1.2em;
+
     border-bottom: 4px solid #4682b4;
 }
 
@@ -46,37 +52,46 @@ header {
     justify-content: center;
 }
 
-#divHeader {
-    width: 24%;
-}    
-
 h1, nav {
     line-height: 32px;
+
     padding: 32px;
 }    
 
 h1 {
+    background-color: #00008b;
+    /* typography */
     font-family: 'Poly', Times, Times New Roman, serif;
     font-size: 2.0em;
-    background: #00008b;
     color: #add8e6;
+}    
+
+nav, .navLink {
+    background-color: #add8e6;
+    /* typography */
+    color: #00008b;
 }    
 
 /* content */
 section {
-    font-size: 1.2em;
     width: 52%;
     min-height: 640px;
+    /* typography */
+    font-size: 1.2em;
+
     border: 4px solid #4682b4;
+
     margin: 32px auto 88px auto;
     padding: 32px;
 }
 
 h2 {
-    height: 48px;
+    height: 1.8em;
+    /* typography */
     font-family: 'Poly', Times, Times New Roman, serif;
     font-size: 1.8em;
     color: #00008b;
+
     border-bottom: 4px solid #4682b4;
 }
 
@@ -87,15 +102,17 @@ p {
 
 footer {
     position: fixed;
-    left: 0;
     bottom: 0;
-    width: 100%;
-    border-top: 4px solid #4682b4;
-    color: #4682b4;
+    left: 0;
+    /* typography */
     text-align: center;
     font-size: 12px;
     font-weight: 600;
+    color: #4682b4;
+
+    width: 100%;
     line-height: 20px;
+    border-top: 4px solid #4682b4;
     padding: 12px 0px;
 }
 
@@ -107,8 +124,8 @@ footer {
 .img {
     /* position */
     float: left;
-    width: 24%;
-    height: 24%;
+    width: 16%;
+    height: 16%;
     margin: 40px 32px 16px 0px;
 }
 
@@ -139,16 +156,19 @@ a.label {
     top: 136px;
     left: 0px;
     width: 100%;
-    background: #112288;
-    color: #add8e6;
+    background-color: #112288;
+    /* typography */
     font-size: 22px;
+    color: #add8e6;
     line-height: 32px;
 }
 
 /* contact */
 .contact {
+    /* typography */
     text-align: center;
     font-size: 2.2vw;
+
     padding: 16px;
 }
 
@@ -185,8 +205,10 @@ a.label {
 }
 
 textarea {
-    font-family: monospace;
     background-color: #dddddd;
+    /* typography */
+    font-family: monospace;
+
     width: 100%;
     max-width: 100%;
     height: 136px;
