@@ -13,14 +13,14 @@ html, body {
 }
 
 /* links */
+
 .navLink {
-    border-left: 1px solid #bbbbdd;
-    border-right: 1px solid #bbbbdd;
+    border-left: 1px solid #8888dd;
+    border-right: 1px solid #8888dd;
 
     padding: 2px;
 }
 
-/* typography, links */
 a {
     text-decoration: none;
 }    
@@ -40,6 +40,7 @@ a:active {
 }
 
 /* header */
+
 header {
     /* typography */
     font-size: 1.2em;
@@ -50,46 +51,57 @@ header {
 .flex-container {
     display: flex;
     justify-content: center;
+    
 }
 
 h1, nav {
     line-height: 32px;
-
+    
     padding: 32px;
 }    
 
 h1 {
     background-color: #00008b;
+    
     /* typography */
     font-family: 'Poly', Times, Times New Roman, serif;
     font-size: 2.0em;
     color: #add8e6;
+
+    border-left: 2px solid #4682b4;
 }    
+
+nav {
+    border-right: 2px solid #4682b4;
+}
 
 nav, .navLink {
     background-color: #add8e6;
+
     /* typography */
     color: #00008b;
 }    
 
 /* content */
+
 section {
     width: 52%;
     min-height: 640px;
+
     /* typography */
     font-size: 1.2em;
 
     border: 4px solid #4682b4;
-
     margin: 32px auto 88px auto;
     padding: 32px;
 }
 
 h2 {
     height: 1.8em;
+
     /* typography */
     font-family: 'Poly', Times, Times New Roman, serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
     color: #00008b;
 
     border-bottom: 4px solid #4682b4;
@@ -97,35 +109,40 @@ h2 {
 
 p {
     line-height: 24px;
+
     padding: 16px 0px;
 }
 
 footer {
     position: fixed;
+    width: 100%;
     bottom: 0;
     left: 0;
+
     /* typography */
     text-align: center;
     font-size: 12px;
     font-weight: 600;
     color: #4682b4;
 
-    width: 100%;
     line-height: 20px;
+
     border-top: 4px solid #4682b4;
+
     padding: 12px 0px;
 }
 
 /* index */
+
 #bio {
     margin: 32px 0px;
 }
 
 .img {
-    /* position */
     float: left;
     width: 16%;
     height: 16%;
+
     margin: 40px 32px 16px 0px;
 }
 
@@ -136,6 +153,7 @@ footer {
 }
 
 /* portfolio */
+
 #mQcenter {
     text-align: center;
 }
@@ -157,6 +175,7 @@ a.label {
     left: 0px;
     width: 100%;
     background-color: #112288;
+
     /* typography */
     font-size: 22px;
     color: #add8e6;
@@ -164,6 +183,7 @@ a.label {
 }
 
 /* contact */
+
 .contact {
     /* typography */
     text-align: center;
@@ -175,11 +195,13 @@ a.label {
 .spacer {
     border-top: 0.5px solid #4682b4;
     border-bottom: 0.5px solid #4682b4;
+
     margin: 32px auto;
     padding: 112px;
 }
 
 /* ka-makeItRain */
+
 .displayCase {
     float: left;
     position: relative;
@@ -194,6 +216,7 @@ a.label {
     position: absolute;
     bottom: 16px;
     left: 16px;
+
     margin: 8px auto;
 }
 
@@ -201,11 +224,13 @@ a.label {
     position: absolute;
     bottom: 16px;
     right: 48px;
+
     margin: 8px auto;
 }
 
 textarea {
     background-color: #dddddd;
+
     /* typography */
     font-family: monospace;
 
@@ -215,7 +240,7 @@ textarea {
 }
 
 .example {
-    height: 16px;
     resize: none;
+    height: 16px;
 }
 
