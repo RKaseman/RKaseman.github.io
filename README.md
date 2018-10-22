@@ -7,3 +7,7 @@ breathe and really focus on some of it. The University of Denver's
 Coding Bootcamp is fast and furious and it's been a great challenge 
 to keep up, so that's where my energy has gone. As you'll see from 
 banner titles, I have *plans* for my nook.
+
+2018/10/22 - Plans start today
+- [ ] add reset css
+- [ ] convert header from float to flexbox

@@ -1,38 +1,28 @@
 
 * {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: #eeeeee;
-    color: #000000;
-    margin: auto;
 }
 
-html {
-    width: 100%;
-    height: 100%;
+html, body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/carbon_fibre_big.png");
-    background-color: #eeeeee;
+    background-color: #222222;
+    color: #222222;
 }
 
-body {
-    background-image: url("../images/carbon_fibre_big.png");
-}
-
-/* typography on nav elements */
-a {
-    text-decoration: none;
-}
-
+/* links */
 .navLink {
     border-left: 1px solid #bbbbdd;
     border-right: 1px solid #bbbbdd;
     padding: 4px;
 }
 
-a:link {
-    color: #112288;
-}
+/* typography, links */
+a {
+    text-decoration: none;
+}    
 
-a:visited {
+a:link, a:visited {
     color: #112288;
 }
 
@@ -52,14 +42,21 @@ header {
 }
 
 #divHeader {
-    width: 50%;
+    width: 20%;
 }
 
 h1 {
     font-family: 'Poly', Times, Times New Roman, serif;
+    font-size: 1.5em;
+    width: 24%;
     background: #00008b;
     color: #add8e6;
     padding: 32px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
 }
 
 .floatL {
@@ -78,6 +75,7 @@ nav {
 
 /* content */
 section {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width: 52%;
     min-height: 640px;
     border: 4px solid #4682b4;
