@@ -1,38 +1,30 @@
 
 @media only screen and (max-width: 980px) {
 
-    #divHeader {
-        width: 72%;
-    }
-
     section {
         width: 80%;
     }
 
     .contact {
-        font-size: 3.8vw;
+        font-size: 2.0em;
+        padding: 32px;
     }
 
     .spacer {
-        margin: 8px;
-
-        padding:16px;
+        margin: 32px;
+        padding: 32px;
     }
 
 }
 
 @media only screen and (max-width: 768px) {
 
-    #divHeader {
-        width: 80%;
+    header {
+        font-size: 1.0em;
     }
 
     section {
         width: 75%;
-    }
-
-    .img {
-        width: 42%;
     }
 
     .imgProject {
@@ -40,13 +32,13 @@
     }
 
     .contact {
-        font-size: 3.8vw;
+        font-size: 1.8em;
+        padding: 16px;
     }
 
     .spacer {
-        margin: 8px;
-
-        padding:16px;
+        margin: 16px;
+        padding: 16px;
     }
 
     #mycanvas {
@@ -57,20 +49,6 @@
 
 @media only screen and (max-width: 640px) {
 
-    #divHeader {
-        width: 100%;
-        text-align: center;
-    }
-
-    nav {
-        text-align: center;
-        padding: 16px;
-    }
-
-    #floatL, #floatR {
-        float: none;
-    }
-
     section {
         width: 80%;
     }
@@ -78,7 +56,7 @@
     .img {
         display: block;
         float: none;
-        width: 75%;
+        width: 32%;
         margin: 32px auto;
     }
 
@@ -88,21 +66,19 @@
     }
 
     .contact {
-        font-size: 4.2vw;
+        font-size: 1.8em;
+        padding: 16px;
     }
 
     .spacer {
-        margin: 8px;
-
-        padding:16px;
+        margin: 16px;
+        padding: 16px;
     }
 
     .displayCase {
         display: block;
         float: none;
-
         text-align: center;
-
         margin: 0px auto;
     }
 
@@ -114,39 +90,9 @@
         margin: 40px auto;
     }
 
-    #startBtn {
-        position: absolute;
-        bottom: 8px;
-        left: 128px;
-
-        margin: 8px auto;
-    }
-
-    #stopBtn {
-        position: absolute;
-        bottom: 8px;
-        right: 128px;
-
-        margin: 8px auto;
-    }
-
 }
 
 @media only screen and (max-width: 320px) {
-
-    #divHeader {
-        width: 100%;
-        text-align: center;
-    }
-
-    #floatL, #floatR {
-        float: none;
-    }
-
-    nav {
-        text-align: center;
-        padding: 16px;
-    }
 
     section {
         width: 70%;
@@ -159,7 +105,7 @@
     .img {
         display: block;
         float: none;
-        width: 55%;
+        width: 40%;
         margin: 32px auto;
     }
 
@@ -174,33 +120,22 @@
 
     a.label {
         position: absolute;
-
         top: 112px;
         left: 11px;
         width: 90%;
-
         background: #112288;
-
         color: #add8e6;
         font-size: 4.0vw;
     }
 
     .contact {
-        font-size: 5.2vw;
-    }
-
-    .spacer {
-        margin: 8px;
-
-        padding:16px;
+        font-size: 0.8em;
     }
 
     .displayCase {
         display: block;
         float: none;
-
         text-align: center;
-
         margin: 0px auto;
     }
 
@@ -210,22 +145,6 @@
 
     .canvasKApJS {
         margin: 40px auto;
-    }
-
-    #startBtn {
-        position: absolute;
-        bottom: 8px;
-        left: 16px;
-
-        margin: 8px auto;
-    }
-
-    #stopBtn {
-        position: absolute;
-        bottom: 8px;
-        right: 16px;
-
-        margin: 8px auto;
     }
 
 }

@@ -6,8 +6,6 @@
 html, body {
     background-image: url("../images/carbon_fibre_big.png");
     background-color: #666666;
-
-    /* typography */
     font-family: 'Galdeano', 'Arial', 'Helvetica Neue', Helvetica,  sans-serif;
     color: #222222;
 }
@@ -17,7 +15,6 @@ html, body {
 .navLink {
     border-left: 1px solid #8888dd;
     border-right: 1px solid #8888dd;
-
     padding: 2px;
 }
 
@@ -31,7 +28,6 @@ a:link, a:visited {
 
 a:hover {
     background-color: #00008b;
-
     color: #add8e6;
 }
 
@@ -42,32 +38,25 @@ a:active {
 /* header */
 
 header {
-    /* typography */
     font-size: 1.2em;
-
     border-bottom: 4px solid #4682b4;
 }
 
 .flex-container {
     display: flex;
     justify-content: center;
-    
 }
 
 h1, nav {
     line-height: 32px;
-    
     padding: 32px;
 }    
 
 h1 {
     background-color: #00008b;
-    
-    /* typography */
     font-family: 'Poly', Times, Times New Roman, serif;
     font-size: 2.0em;
     color: #add8e6;
-
     border-left: 2px solid #4682b4;
 }    
 
@@ -77,8 +66,6 @@ nav {
 
 nav, .navLink {
     background-color: #add8e6;
-
-    /* typography */
     color: #00008b;
 }    
 
@@ -87,10 +74,7 @@ nav, .navLink {
 section {
     width: 52%;
     min-height: 640px;
-
-    /* typography */
     font-size: 1.2em;
-
     border: 4px solid #4682b4;
     margin: 32px auto 88px auto;
     padding: 32px;
@@ -98,18 +82,14 @@ section {
 
 h2 {
     height: 1.8em;
-
-    /* typography */
     font-family: 'Poly', Times, Times New Roman, serif;
     font-size: 1.6em;
     color: #00008b;
-
     border-bottom: 4px solid #4682b4;
 }
 
 p {
     line-height: 24px;
-
     padding: 16px 0px;
 }
 
@@ -119,16 +99,13 @@ footer {
     bottom: 0;
     left: 0;
 
-    /* typography */
     text-align: center;
     font-size: 1.0em;
     font-weight: 600;
     color: #4682b4;
-
     line-height: 24px;
 
     border-top: 4px solid #4682b4;
-
     padding: 12px 0px;
 }
 
@@ -142,7 +119,6 @@ footer {
     float: left;
     width: 16%;
     height: 16%;
-
     margin: 40px 32px 16px 0px;
 }
 
@@ -185,7 +161,6 @@ a.label {
     width: 100%;
     background-color: #112288;
 
-    /* typography */
     font-size: 22px;
     color: #add8e6;
     line-height: 32px;
@@ -194,19 +169,16 @@ a.label {
 /* contact */
 
 .contact {
-    /* typography */
     text-align: center;
-    font-size: 2.2vw;
-
-    padding: 16px;
+    font-size: 2.2em;
+    padding: 64px;
 }
 
 .spacer {
     border-top: 0.5px solid #4682b4;
     border-bottom: 0.5px solid #4682b4;
-
-    margin: 32px auto;
-    padding: 112px;
+    margin: 64px auto;
+    padding: 64px;
 }
 
 /* ka-makeItRain */
@@ -225,7 +197,6 @@ a.label {
     position: absolute;
     bottom: 16px;
     left: 16px;
-
     margin: 8px auto;
 }
 
@@ -233,14 +204,12 @@ a.label {
     position: absolute;
     bottom: 16px;
     right: 48px;
-
     margin: 8px auto;
 }
 
 textarea {
     background-color: #dddddd;
 
-    /* typography */
     font-family: monospace;
 
     width: 100%;
