@@ -121,11 +121,11 @@ footer {
 
     /* typography */
     text-align: center;
-    font-size: 12px;
+    font-size: 1.0em;
     font-weight: 600;
     color: #4682b4;
 
-    line-height: 20px;
+    line-height: 24px;
 
     border-top: 4px solid #4682b4;
 
@@ -144,6 +144,15 @@ footer {
     height: 16%;
 
     margin: 40px 32px 16px 0px;
+}
+
+.logo {
+    float: right;
+    width: 32%;
+}
+
+.meanwhile {
+    font-size: 1.2em;
 }
 
 .clearfix::after {

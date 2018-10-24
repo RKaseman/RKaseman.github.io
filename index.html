@@ -8,9 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evolution of a Coder--Home</title>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
 
-    <link rel="stylesheet" type="text/css" href="assets/css/EMreset.css">
+    <!-- Handlebars -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/EMreset.css">
     <link href="https://fonts.googleapis.com/css?family=Poly%7cGaldeano" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/mQ.css">
@@ -19,10 +25,12 @@
 <body>
     <header class="flex-container">
         <h1>Rane M Kaseman</h1>
-        <nav>
-            <a href="./index.html" class="navLink">About</a>
-            <a href="./portfolio.html" class="navLink">Portfolio</a>
-            <a href="./contact.html" class="navLink">Contact</a>
+        <nav id="header">
+            <script id="header-template" type="text/x-handlebars-template">
+                {{#each this}}
+                    <a href="{{url}}" class="navLink">{{urlText}}</a>
+                {{/each}}
+            </script>
         </nav>
     </header>
 
@@ -30,10 +38,23 @@
         <div>
             <h2>Evolution of a Coder</h2>
         </div>
+
         <div>
             <img class="img" src="./assets/images/20170402_013852sR3.jpg" alt="Rane">
         </div>
         <div id="bio">
+            <p>
+                As of October 17, DU's coding bootcamp is over. I got my certification. I wanted - and got - a great overview of full stack web development. I discovered that I very much enjoy working with APIs and databases on the back end, but I'm more comfortable on the front end and I have a pretty good knack for troubleshooting code.
+            </p>
+            <p>
+                I gave myself a few days off as a reward, but now I'm going to dive into every project we did to make improvements and I'm looking forward to deep diving into the concepts we covered at break-neck speed. I'll be keeping a log of improvements and additions to my work. First on the agenda is refactor these pages and implement handlebars templates. Fitting, don't you think? ;)
+            </p>
+            <p>
+                <img class="logo" src="./assets/images/handlebars_logo.png" alt="Handlebars Logo">
+            </p>
+            <p class="meanwhile">
+                Meanwhile...
+            </p>
             <p>
                 I was born and raised in Bismarck, North Dakota.
             </p>
@@ -55,22 +76,20 @@
             <p>
                 In recent years I had volunteered to work on an internal SharePoint Wiki that centralized information, standard practices and procedures. A sample of that work is available through the <a href="./portfolio.html">portfolio page.</a> I tried to write organized, DRY html code with css, but I did it all with SharePoint's code editor and it bloats code beyond all recognition. What you type into the html editor isn't what you get back when it's reopened. The SharePoint part was frustrating and yet the days I was scheduled to work on it flew by because I enjoyed the work so much. I have great passion for front end development and getting things <em>just right</em>. The aesthetic of creativity within coding's linguistic framework kept drawing me back. Sound hokey? It may be, but it's what makes being downsized into my dream opportunity a chance to make lemonade! I want to code.
             </p>
-            <p>
-                As of October 17, DU's coding bootcamp is over. I got my certification. I wanted - and got - a great overview of full stack web development. I discovered that I very much enjoy working with APIs and databases on the back end, but I'm more comfortable on the front end and I have a pretty good knack for troubleshooting code.
-            </p>
-            <p>
-                I gave myself a few days off as a reward, but now I'm going to dive into every project we did to make improvements and I'm looking forward to deep diving into the concepts we covered at break-neck speed. I'll be keeping a log of improvements and additions to my work. First on the agenda is refactor these pages and implement handlebars templates.
-            </p>
         </div>
     </section>
 
-    <footer>
-        <a href="mailto:rmkaseman@gmail.com" class="navLink">Email</a>
-        <a href="https://github.com/RKaseman" class="navLink" target="_blank">gitHub</a>
-        <a href="https://www.linkedin.com/in/rmkaseman-evolution-of-a-coder/" class="navLink" target="_blank">linkedIn</a>
+    <footer id="footer">
+        <span>&#169; 2018 RMK</span>
         <br>
-        &#169; 2018 RMK
+        <script id="footer-template" type="text/x-handlebars-template">
+            {{#each this}}
+                <a href="{{url}}" class="navLink">{{urlText}}</a>
+            {{/each}}
+        </script>
     </footer>
+
+    <script src="./assets/javascript/javascript.js"></script>
 
 </body>
 
