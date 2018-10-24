@@ -3,36 +3,35 @@
 <html lang="en-us">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>EoaC--Khan Academy Project: Build-a-House</title>
 
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/EMreset.css"> -->
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
 
-    <link href="https://fonts.googleapis.com/css?family=Poly%7cMerienda%7cGaldeano" rel="stylesheet">
+    <!-- Handlebars -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js">
+    </script>
 
+    <link rel="stylesheet" type="text/css" href="./assets/css/EMreset.css">
+    <link href="https://fonts.googleapis.com/css?family=Poly%7cGaldeano" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/mQ.css">
-
 </head>
 
 <body>
-    <header class="clearfix">
-        <div id="divHeader">
-            <div class="floatL" id="floatL">
-                <h1>Rane M Kaseman</h1>
-            </div>
-            <div class="floatR" id="floatR">
-                <nav>
-                    <a href="./index.html" class="navLink">About</a>
-                    <a href="./portfolio.html" class="navLink">Portfolio</a>
-                    <a href="./contact.html" class="navLink">Contact</a>
-                </nav>
-            </div>
-        </div>
+    <header class="flex-container">
+        <h1>Rane M Kaseman</h1>
+        <nav id="header">
+            <script id="header-template" type="text/x-handlebars-template">
+                {{#each this}}
+                    <a href="{{url}}" class="navLink">{{urlText}}</a>
+                {{/each}}
+            </script>
+        </nav>
     </header>
 
     <section>
@@ -53,16 +52,16 @@
         </div>
     </section>
 
-    <footer>
-        <a href="mailto:rmkaseman@gmail.com" class="navLink">Email</a>
-        <a href="https://github.com/RKaseman" class="navLink" target="_blank">gitHub</a>
-        <a href="https://www.linkedin.com/in/rmkaseman-evolution-of-a-coder/" class="navLink" target="_blank">linkedIn</a>
+    <footer id="footer">
+        <span>&#169; 2018 RMK</span>
         <br>
-        &#169; 2018 RMK
+        <script id="footer-template" type="text/x-handlebars-template">
+            {{#each this}}
+                <a href="{{url}}" class="navLink">{{urlText}}</a>
+            {{/each}}
+        </script>
     </footer>
-
-    <!-- firebase -->
-    <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+    
     <script src="./assets/javascript/processing-1.4.8.min.js"></script>
     <script src="./assets/javascript/javascript.js"></script>
     <script src="./assets/javascript/javascript-kapBaH.js"></script>
