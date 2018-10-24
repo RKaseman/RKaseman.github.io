@@ -6,6 +6,13 @@ Welcome to my nook of GitHub.
 
 I started working on fixes and improvements because bootcamp is over.
 
+####Tomorrow:
+
+2018/10/25
+- [ ] Add references
+
+####--------
+
 2018/10/24
 - [x] Media query fixes
 - [x] Handlebar the portfolio page
@@ -15,6 +22,6 @@ I started working on fixes and improvements because bootcamp is over.
 - [x] Handlebar the footer
 
 2018/10/22 - Plans start today
-- [x] add reset css
-- [x] convert header from float to flexbox
+- [x] Add reset css
+- [x] Convert header from float to flexbox
 
