@@ -36,132 +36,20 @@
 
     <section>
         <div>
-            <h2>Evolution of a Coder's Projects</h2>
+            <h2>Evolution of a Coder's Work</h2>
         </div>
 
         <div id="mQcenter">
-            <div>
-                <!-- 1 -->
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/crystal_Collector_Game.png" alt="Project">
-                    <div class="banner">
-                        <a href="https://rkaseman.github.io/Unit-4-game/" class="label" target="_blank">Training 1:<br>Something's
-                            Fishy</a>
+            <script id="portfolio-template" type="text/x-handlebars-template">
+                {{#each this}}
+                    <div class="imgProject">
+                        <img class="effect" src="{{image}}" alt="{{alt}}">
+                        <div class="banner">
+                            <a href="{{url}}" class="label" target="_blank">{{urlText}}</a>
+                        </div>
                     </div>
-                </div>
-
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/Shoegazer_NameThatBand.png" alt="Project">
-                    <div class="banner">
-                        <a href="https://rkaseman.github.io/Trivia-Game/" class="label" target="_blank">Training 2:<br>Ode
-                            to the Underrated</a>
-                    </div>
-                </div>
-
-            </div>
-            <div>
-                <!-- 2 -->
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/women_by_giphy.png" alt="Project">
-                    <div class="banner">
-                        <a href="https://rkaseman.github.io/GIPHY-Page/" class="label" target="_blank">Training 3:<br>Cheeky
-                            Fun</a>
-                    </div>
-                </div>
-
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/On_Time.png" alt="Project">
-                    <div class="banner">
-                        <a href="https://rkaseman.github.io/alarm-it/" class="label" target="_blank">Training 5:<br>Group
-                            Project 1</a>
-                    </div>
-                </div>
-
-            </div>
-            <div>
-                <!-- 3 -->
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/workSpace_liri.png" alt="Project">
-                    <div class="banner">
-                        <a href="https://github.com/RKaseman/liri-node-app" class="label" target="_blank">Training 6:<br>Node.js
-                            "liri"</a>
-                    </div>
-                </div>
-
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/expamazon.png" alt="Project">
-                    <div class="banner">
-                        <a href="https://github.com/RKaseman/EXPA-mazon" class="label" target="_blank">Training 7:<br>Exoplanet
-                            Store</a>
-                    </div>
-                </div>
-
-            </div>
-            <div>
-                <!-- 4 -->
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/ludology.html.png" alt="Project">
-                    <div class="banner">
-                        <a href="https://ludology2.herokuapp.com/" class="label" target="_blank">Training 8:<br>Group
-                            Project 2</a>
-                    </div>
-                </div>
-
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/ESO_Forum_Scraper.png" alt="Project">
-                    <div class="banner">
-                        <a href="https://a-scraper-by-rmk.herokuapp.com/" class="label" target="_blank">Training 9:<br>For
-                            my Wife</a>
-                    </div>
-                </div>
-
-            </div>
-            <div>
-                <!-- 5 -->
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/Click_and_React.png" alt="Project">
-                    <div class="banner">
-                        <a href="https://rkaseman.github.io/click-and-react/" class="label" target="_blank">Training
-                            10:<br>React: Pretty Cool</a>
-                    </div>
-                </div>
-
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/Scrawler.png" alt="Project">
-                    <div class="banner">
-                        <a href="https://sleepy-spire-34424.herokuapp.com/" class="label" target="_blank">Training 11:<br>Scrawler,
-                            by Matt & me</a>
-                    </div>
-                </div>
-
-            </div>
-            <div>
-                <!-- 6 -->
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/khanAcademyProject_MakeItRain.png" alt="Khan Academy Projects">
-                    <div class="banner">
-                        <a href="./ka-makeItRain.html" class="label">Khan Academy Projects:<br>Make it Rain</a>
-                    </div>
-                </div>
-
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/khanAcademyProject_Build_a_House.png" alt="Khan Academy Projects">
-                    <div class="banner">
-                        <a href="./ka-build-a-house.html" class="label">Khan Academy Projects:<br>Build-a-House</a>
-                    </div>
-                </div>
-
-            </div>
-            <div>
-                <!-- 7 -->
-                <div class="imgProject">
-                    <img class="effect" src="./assets/images/pseudo-coder.png" alt="History">
-                    <div class="banner">
-                        <a href="./pseudo-coder.html" class="label" target="_blank">Pseudo-coder<br>SharePoint</a>
-                    </div>
-                </div>
-
-            </div>
+                {{/each}}
+            </script>
         </div>
     </section>
 
@@ -175,7 +63,8 @@
         </script>
     </footer>
     
-    <script src="./assets/javascript/javascript.js"></script>
+    <script src="./assets/javascript/js-head-foot.js"></script>
+    <script src="./assets/javascript/js-portfolio.js"></script>
 
 </body>
 

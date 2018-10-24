@@ -2,11 +2,10 @@
 
 Welcome to my nook of GitHub.
 
-There'll be a few non-functioning links until I get the chance to 
-breathe and really focus on some of it. The University of Denver's 
-Coding Bootcamp is fast and furious and it's been a great challenge 
-to keep up, so that's where my energy has gone. As you'll see from 
-banner titles, I have *plans* for my nook.
+I started working on fixes and improvements because bootcamp is over.
+
+2018/10/24
+- [ ] Media query fixes
 
 2018/10/23
 - [x] Handlebars header
@@ -16,4 +15,3 @@ banner titles, I have *plans* for my nook.
 - [x] add reset css
 - [x] convert header from float to flexbox
 
-(push)
