@@ -6,12 +6,12 @@ Welcome to my nook of GitHub.
 
 I started working on fixes and improvements because bootcamp is over.
 
-####Tomorrow:
+#### Tomorrow:
 
 2018/10/25
 - [ ] Add references
 
-####--------
+#### --------
 
 2018/10/24
 - [x] Media query fixes
