@@ -92,7 +92,12 @@
 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 448px) {
+
+    .flex-container {
+        display: block;
+        text-align: center;
+    }
 
     section {
         width: 70%;
