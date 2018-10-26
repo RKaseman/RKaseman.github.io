@@ -1,10 +1,12 @@
 
 * {
+    box-sizing: border-box;
     background-color: #cccccc;
 }
 
 html, body {
-    background-image: url("../images/carbon_fibre_big.png");
+    background-image: url("../images/binding_dark.png");
+    /* background-image: url("../images/carbon_fibre_big.png"); */
     background-color: #666666;
     font-family: 'Galdeano', 'Arial', 'Helvetica Neue', Helvetica,  sans-serif;
     color: #222222;

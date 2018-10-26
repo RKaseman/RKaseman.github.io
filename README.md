@@ -8,12 +8,16 @@ I started working on fixes and improvements because bootcamp is over.
 
 #### Tomorrow:
 
-2018/10/26
+2018/10/27
 - [ ] Media query fixes
 - [ ] .css files per page
 - [ ] Add references (cont)
 
 #### --------
+
+2018/10/26
+- [x] Media query fixes
+- [x] Add references (cont)
 
 2018/10/25
 - [x] Media query fixes
