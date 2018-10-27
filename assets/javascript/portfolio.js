@@ -80,8 +80,8 @@ $(function () {
             url: "./pseudo-coder.html",
             urlText: "SharePoint"
         }
-
     ];
+
     var portfolioTemplate = Handlebars.compile($("#portfolio-template").html());
     $("#mQcenter").append(portfolioTemplate(portfolio));
 
