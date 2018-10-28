@@ -10,11 +10,12 @@ I started working on fixes and improvements because bootcamp is over.
 
 2018/10/29
 - [ ] add references (cont.)
-- [x] .css files per page (cont.)
-- [x] .css refactor (cont.)
+- [ ] .css files per page (cont.)
+- [ ] .css refactor (cont.)
 
 #### --------
 
+2018/10/28
 - [ ] add references (cont.)
 - [x] .css files per page (cont.)
 - [x] .css refactor (cont.)
