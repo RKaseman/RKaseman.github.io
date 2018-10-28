@@ -75,21 +75,21 @@ $(function () {
         {
             image: "./assets/images/khanAcademyProject_MakeItRain.png",
             alt: "Khan Academy Projects",
-            url: "./ka-MiR.html",
+            url: "https://rkaseman.github.io/ka-MiR.html",
             target: "",
             urlText: "Make it Rain"
         },
         {
             image: "./assets/images/khanAcademyProject_Build_a_House.png",
             alt: "Khan Academy Projects",
-            url: "./ka-BaH.html",
+            url: "https://rkaseman.github.io/ka-BaH.html",
             target: "",
             urlText: "Build-a-House"
         },
         {
             image: "./assets/images/pseudo-coder.png",
             alt: "Wiki Work",
-            url: "./pseudo-coder.html",
+            url: "https://rkaseman.github.io/pseudo-coder.html",
             target: "",
             urlText: "SharePoint"
         }
