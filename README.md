@@ -9,27 +9,27 @@ I started working on fixes and improvements because bootcamp is over.
 #### Tomorrow:
 
 2018/10/28
-- [ ] Media query fixes
-- [ ] .css files per page (cont)
-- [ ] Add references (cont)
+- [ ] add references (cont.)
+- [ ] .css files per page (cont.)
+- [ ] .css refactor (cont.)
 
 #### --------
 
 2018/10/27
+- [ ] add references (cont.)
 - [x] .css files per page
 - [x] .css refactor
-- [ ] Add references (cont)
 
 2018/10/26
-- [x] Media query fixes (cont)
-- [x] Add references (cont)
+- [x] add references (cont.)
+- [x] media query fixes (cont.)
 
 2018/10/25
-- [x] Media query fixes (cont)
-- [x] Add references
+- [x] add references
+- [x] media query fixes (cont.)
 
 2018/10/24
-- [x] Media query fixes
+- [x] media query fixes
 - [x] Handlebar the portfolio page
 
 2018/10/23
@@ -37,6 +37,6 @@ I started working on fixes and improvements because bootcamp is over.
 - [x] Handlebar the footer
 
 2018/10/22 - Plans start today
-- [x] Add reset css
-- [x] Convert header from float to flexbox
+- [x] add reset css
+- [x] convert header from float to flexbox
 
