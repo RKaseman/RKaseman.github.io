@@ -1,0 +1,14 @@
+
+.contact {
+    text-align: center;
+    font-size: 2.2em;
+    padding: 64px;
+}
+
+.spacer {
+    border-top: 0.5px solid #4682b4;
+    border-bottom: 0.5px solid #4682b4;
+    margin: 64px auto;
+    padding: 64px;
+}
+

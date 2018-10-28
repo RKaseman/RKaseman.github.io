@@ -8,12 +8,16 @@ I started working on fixes and improvements because bootcamp is over.
 
 #### Tomorrow:
 
-2018/10/28
+2018/10/29
 - [ ] add references (cont.)
-- [ ] .css files per page (cont.)
-- [ ] .css refactor (cont.)
+- [x] .css files per page (cont.)
+- [x] .css refactor (cont.)
 
 #### --------
+
+- [ ] add references (cont.)
+- [x] .css files per page (cont.)
+- [x] .css refactor (cont.)
 
 2018/10/27
 - [ ] add references (cont.)

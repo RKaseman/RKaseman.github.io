@@ -1,0 +1,28 @@
+
+#mQcenter {
+    text-align: center;
+}
+
+.imgProject {
+    display: inline-block;
+    position: relative;
+    margin: 32px;
+}
+
+img.effect {
+    opacity: 0.64;
+    filter: blur(1px) brightness(48%);
+}
+
+a.label {
+    position: absolute;
+    top: 136px;
+    left: 0px;
+    width: 100%;
+    background-color: #112288;
+
+    font-size: 1.4em;
+    color: #add8e6;
+    line-height: 48px;
+}
+
