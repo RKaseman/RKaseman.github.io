@@ -106,6 +106,10 @@
         margin: 32px auto;
     }
 
+    .imgProject {
+        margin: 32px auto;
+    }
+
     a.label {
         font-size: 1.2em;
     }
@@ -133,6 +137,33 @@
 
     .canvasKApJS {
         margin: 40px auto;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    section {
+        width: 88%;
+    }
+
+    .imgProject > img {
+        width: 100%;
+        margin: 16px auto;
+    }
+
+    a.label {
+        font-size: 1.0em;
+    }
+
+    .contact {
+        font-size: 0.9em;
+        padding: 16px;
+    }
+
+    .spacer {
+        margin: 16px auto;
+        padding: 16px;
     }
 
 }
