@@ -89,6 +89,10 @@ h2 {
     border-bottom: 4px solid #4682b4;
 }
 
+#mQcenter {
+    text-align: center;
+}
+
 p {
     line-height: 24px;
     padding: 16px 0px;
