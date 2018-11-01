@@ -11,6 +11,7 @@ I started working on fixes and improvements because bootcamp is over.
 #### --------
 
 2018/10/31
+- [x] add resume
 - [x] add references (cont.)
 - [x] .css refactor (cont.)
 
