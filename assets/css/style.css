@@ -129,7 +129,8 @@ footer {
 
 .logo {
     float: right;
-    width: 32%;
+    width: 24%;
+    margin: 24px 16px;
 }
 
 .meanwhile {
