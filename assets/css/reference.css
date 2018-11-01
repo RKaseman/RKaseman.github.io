@@ -2,6 +2,7 @@
 .slideshow-container {
     position: relative;
     margin: 32px auto;
+    border: 1px solid red;
 }
 
 /* Hide the images by default */
@@ -15,11 +16,11 @@
     position: absolute;
     top: 44%;
     width: auto;
-    margin-top: -22px;
-    padding: 16px;
+    font-size: 18px;
     color: #222222;
     font-weight: bold;
-    font-size: 18px;
+    margin-top: -22px;
+    padding: 16px;
     transition: 0.2s ease;
 }
 

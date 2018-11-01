@@ -8,7 +8,12 @@ I started working on fixes and improvements because bootcamp is over.
 
 #### Tomorrow:
 
+- [ ] maybe give myself a day off?
+
 #### --------
+
+2018/11/01
+- [x] media query for references
 
 2018/10/31
 - [x] add resume
