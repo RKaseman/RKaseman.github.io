@@ -2,7 +2,6 @@
 .slideshow-container {
     position: relative;
     margin: 32px auto;
-    border: 1px solid red;
 }
 
 /* Hide the images by default */
