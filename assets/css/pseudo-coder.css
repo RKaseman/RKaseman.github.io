@@ -1,0 +1,14 @@
+
+textarea {
+    background-color: #dddddd;
+    font-family: monospace;
+    width: 100%;
+    max-width: 100%;
+    height: 136px;
+}
+
+.example {
+    resize: none;
+    height: 22px;
+}
+

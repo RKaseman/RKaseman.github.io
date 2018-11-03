@@ -14,6 +14,8 @@ I started working on fixes and improvements because bootcamp is over.
 
 2018/11/02
 - [x] tweaked references
+- [x] .css files per page (complete)
+* unique page css is modularized into individual files
 
 2018/11/01
 - [x] media query for references

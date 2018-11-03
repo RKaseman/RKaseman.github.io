@@ -1,0 +1,25 @@
+
+.displayCase {
+    float: left;
+    position: relative;
+}
+
+.canvasKApJS {
+    /* processing canvas position */
+    margin: 40px 32px 16px 0px;
+}
+
+#startBtn {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    margin: 8px auto;
+}
+
+#stopBtn {
+    position: absolute;
+    bottom: 16px;
+    right: 48px;
+    margin: 8px auto;
+}
+
