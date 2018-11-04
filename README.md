@@ -8,16 +8,18 @@ I started working on fixes and improvements because bootcamp is over.
 
 #### Tomorrow:
 
-2018/11/03
+2018/11/04
 - [ ] add faq (cont.)
 
 #### --------
 
+2018/11/03
+- [x] media query fixes (cont.)
+
 2018/11/02
 - [x] add faq
 - [x] tweaked references
-- [x] .css files per page (complete)
-unique page css is modularized into individual files
+- [x] .css files per page (complete) unique page css is modularized into individual files
 
 2018/11/01
 - [x] media query for references

@@ -9,25 +9,26 @@
 }
 
 .prev, .next {
-    cursor: pointer;
     position: absolute;
-    top: 44%;
+    cursor: pointer;
+    top: 40%;
     width: auto;
-    font-size: 18px;
-    color: #222222;
-    font-weight: bold;
-    margin-top: -22px;
+    font-size: 1.0em;
+    color: #00008b;
+    border: 2px solid #00008b;
     padding: 16px;
     transition: 0.2s ease;
 }
 
 .prev {
     left: 0;
+    border-left: none;
     border-radius: 0 3px 3px 0;
 }
 
 .next {
     right: 0;
+    border-right: none;
     border-radius: 3px 0 0 3px;
 }
 
@@ -42,22 +43,28 @@ img {
 }
 
 .text {
-    color: #222222;
-    font-size: 15px;
-    padding: 8px 12px;
     position: absolute;
     bottom: 0;
     width: 100%;
+    max-height: 18%;
+    overflow: auto;
     text-align: center;
+    font-size: 0.9em;
+    color: #222222;
+    border: 2px solid #4682b4;
+    border-top: none;
+    padding: 8px 12px;
 }
 
 .numbertext {
     z-index: 1;
-    color: #222222;
-    font-size: 12px;
-    padding: 8px 12px;
     position: absolute;
     top: 0;
+    font-size: 0.6em;
+    color: #222222;
+    border-right: 2px solid #4682b4;
+    border-bottom: 2px solid #4682b4;
+    padding: 8px 12px;
 }
 
 .dotRows {
@@ -65,13 +72,13 @@ img {
 }
 
 .dot {
+    display: inline-block;
     cursor: pointer;
     height: 15px;
     width: 15px;
-    margin: 0 2px;
     background-color: #222222;
     border-radius: 50%;
-    display: inline-block;
+    margin: 0 2px;
     transition: background-color 0.2s ease;
 }
 
