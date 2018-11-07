@@ -4,68 +4,79 @@
 
 Welcome to my nook of GitHub.
 
-I started working on fixes and improvements because bootcamp is over.
+I started working on fixes and improvements because bootcamp is over. I'm having a great time trying things and tweaking things and generally figuring out what I overlooked or didn't realize the first time through.
 
-#### Tomorrow:
+### **Tomorrow:**
 
-2018/11/04
-- [ ] add faq (cont.)
+2018/11/07, Wed
+- [ ] refactor Unit-4-game, Crystal Collector, cont.
+
+### **--------**
+
+2018/11/06, Tue
+- [ ] add links to github code on portfolio images
+
+2018/11/05, Mon
+- [x] refactor Unit-4-game, Crystal Collector
 
 #### --------
 
-2018/11/03
-- [x] media query fixes (cont.)
+2018/11/04, Sun
+- [x] day off
 
-2018/11/02
+2018/11/03, Sat
+- [x] media query fixes, cont.
+
+2018/11/02, Fri
 - [x] add faq
 - [x] tweaked references
 - [x] .css files per page (complete) unique page css is modularized into individual files
 
-2018/11/01
+2018/11/01, Thu
 - [x] media query for references
 
-2018/10/31
+2018/10/31, Wed
 - [x] add resume
-- [x] add references (cont.)
-- [x] .css refactor (cont.)
+- [x] add references, cont.
+- [x] .css refactor, cont.
 
-2018/10/30
-- [x] add references (cont.)
-- [x] .css refactor (cont.)
+2018/10/30, Tue
+- [x] add references, cont.
+- [x] .css refactor, cont.
 
-2018/10/29
-- [x] add references (cont.)
-- [x] .css refactor (cont.)
+2018/10/29, Mon
+- [x] add references, cont.
+- [x] .css refactor, cont.
 
 #### --------
 
-2018/10/28
-- [x] add references (cont.)
-- [x] .css files per page (cont.)
-- [x] .css refactor (cont.)
+2018/10/28, Sun
+- [x] add references, cont.
+- [x] .css files per page, cont.
+- [x] .css refactor, cont.
 
-2018/10/27
-- [x] add references (cont.)
+2018/10/27, Sat
+- [x] add references, cont.
 - [x] .css files per page
 - [x] .css refactor
 
-2018/10/26
-- [x] add references (cont.)
-- [x] media query fixes (cont.)
+2018/10/26, Fri
+- [x] add references, cont.
+- [x] media query fixes, cont.
 
-2018/10/25
+2018/10/25, Thu
 - [x] add references
-- [x] media query fixes (cont.)
+- [x] media query fixes, cont.
 
-2018/10/24
+2018/10/24, Wed
 - [x] media query fixes
 - [x] Handlebar the portfolio page
 
-2018/10/23
+2018/10/23, Tue
 - [x] Handlebar the header
 - [x] Handlebar the footer
 
-2018/10/22 - Plans start today
+2018/10/22, Mon - Plans start today
 - [x] add reset css
 - [x] convert header from float to flexbox
 

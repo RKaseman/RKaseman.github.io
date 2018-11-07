@@ -3,6 +3,7 @@ $(function () {
 
     var portfolio = [
         {
+            codeURL: "https://github.com/RKaseman/Unit-4-game",
             image: "./assets/images/crystal_Collector_Game.png",
             alt: "Training 1",
             url: "https://rkaseman.github.io/Unit-4-game/",
@@ -10,6 +11,7 @@ $(function () {
             urlText: "Something's Fishy"
         },
         {
+            codeURL: "https://github.com/RKaseman/Trivia-Game",
             image: "./assets/images/Shoegazer_NameThatBand.png",
             alt: "Training 2",
             url: "https://rkaseman.github.io/Trivia-Game/",
@@ -17,6 +19,7 @@ $(function () {
             urlText: "Ode to the Underrated"
         },
         {
+            codeURL: "https://github.com/RKaseman/GIPHY-Page",
             image: "./assets/images/women_by_giphy.png",
             alt: "Training 3",
             url: "https://rkaseman.github.io/GIPHY-Page/",
@@ -24,6 +27,7 @@ $(function () {
             urlText: "Cheeky Fun"
         },
         {
+            codeURL: "https://github.com/RKaseman/alarm-it",
             image: "./assets/images/On_Time.png",
             alt: "Training 5",
             url: "https://rkaseman.github.io/alarm-it/",
@@ -31,6 +35,7 @@ $(function () {
             urlText: "Group Project 1"
         },
         {
+            codeURL: "https://github.com/RKaseman/liri-node-app",
             image: "./assets/images/workSpace_liri.png",
             alt: "Training 6",
             url: "https://github.com/RKaseman/liri-node-app",
@@ -38,6 +43,7 @@ $(function () {
             urlText: "Node.js 'liri'"
         },
         {
+            codeURL: "https://github.com/RKaseman/EXPA-mazon",
             image: "./assets/images/expamazon.png",
             alt: "Training 7",
             url: "https://github.com/RKaseman/EXPA-mazon",
@@ -45,6 +51,7 @@ $(function () {
             urlText: "Exoplanet Store"
         },
         {
+            codeURL: "https://github.com/RKaseman/ludology2",
             image: "./assets/images/ludology.html.png",
             alt: "Training 8",
             url: "https://ludology2.herokuapp.com/",
@@ -52,6 +59,7 @@ $(function () {
             urlText: "Group Project 2"
         },
         {
+            codeURL: "https://github.com/RKaseman/a-scraper",
             image: "./assets/images/ESO_Forum_Scraper.png",
             alt: "Training 9",
             url: "https://a-scraper-by-rmk.herokuapp.com/",
@@ -59,6 +67,7 @@ $(function () {
             urlText: "For my Wife"
         },
         {
+            codeURL: "https://github.com/RKaseman/click-and-react",
             image: "./assets/images/Click_and_React.png",
             alt: "Training 10",
             url: "https://rkaseman.github.io/click-and-react/",
@@ -66,6 +75,7 @@ $(function () {
             urlText: "React!"
         },
         {
+            codeURL: "https://github.com/RKaseman/journal",
             image: "./assets/images/Scrawler.png",
             alt: "Training 11",
             url: "https://sleepy-spire-34424.herokuapp.com/",
@@ -73,6 +83,7 @@ $(function () {
             urlText: "Scrawler, by Matt & me"
         },
         {
+            codeURL: "https://rkaseman.github.io/ka-MiR.html",
             image: "./assets/images/khanAcademyProject_MakeItRain.png",
             alt: "Khan Academy Projects",
             url: "https://rkaseman.github.io/ka-MiR.html",
@@ -80,6 +91,7 @@ $(function () {
             urlText: "Make it Rain"
         },
         {
+            codeURL: "https://rkaseman.github.io/ka-BaH.html",
             image: "./assets/images/khanAcademyProject_Build_a_House.png",
             alt: "Khan Academy Projects",
             url: "https://rkaseman.github.io/ka-BaH.html",
@@ -87,6 +99,7 @@ $(function () {
             urlText: "Build-a-House"
         },
         {
+            codeURL: "https://rkaseman.github.io/pseudo-coder.html",
             image: "./assets/images/pseudo-coder.png",
             alt: "Wiki Work",
             url: "https://rkaseman.github.io/pseudo-coder.html",

@@ -2,7 +2,15 @@
 .imgProject {
     display: inline-block;
     position: relative;
+    box-shadow: 4px 4px 8px 2px #002222, 0px 0px #002222;
+    border: 2px solid #002222;
+    padding: 2px;
     margin: 32px;
+}
+
+.imgProject:hover {
+    box-shadow: 0px 0px 8px 4px #00008b;
+    border: 2px solid #00008b;
 }
 
 img.effect {
@@ -23,3 +31,6 @@ a.label {
     line-height: 48px;
 }
 
+a.label:hover {
+    box-shadow: 0px 0px 8px 4px #4682b4;
+}

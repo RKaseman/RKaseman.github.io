@@ -28,7 +28,7 @@ a:link, a:visited {
     color: #112288;
 }
 
-a:hover {
+a.navLink:hover {
     background-color: #00008b;
     color: #add8e6;
 }
