@@ -11,10 +11,13 @@ I started working on fixes and improvements because bootcamp is over. I'm having
 2018/11/07, Wed
 - [ ] refactor Unit-4-game, Crystal Collector, cont.
 
-### **--------**
+### **Today:**
 
 2018/11/06, Tue
-- [ ] add links to github code on portfolio images
+- [x] add links to github code on portfolio images
+- [x] refactor Unit-4-game, Crystal Collector, cont.
+
+#### **--------**
 
 2018/11/05, Mon
 - [x] refactor Unit-4-game, Crystal Collector
@@ -30,7 +33,7 @@ I started working on fixes and improvements because bootcamp is over. I'm having
 2018/11/02, Fri
 - [x] add faq
 - [x] tweaked references
-- [x] .css files per page (complete) unique page css is modularized into individual files
+- [x] .css files per page complete; unique page css is modularized into individual files
 
 2018/11/01, Thu
 - [x] media query for references
