@@ -6,12 +6,14 @@ Welcome to my nook of GitHub.
 
 I started working on fixes and improvements because bootcamp is over. I'm having a great time trying things and tweaking things and generally figuring out what I overlooked or didn't realize the first time through.
 
-### **Tomorrow:**
+### **Next:**
 
-2018/11/07, Wed
+2018/11/08, Thu
 - [ ] refactor Unit-4-game, Crystal Collector, cont.
 
-### **Today:**
+2018/11/07, Wed
+- [x] refactor Unit-4-game, Crystal Collector, cont.
+- [x] code appearance tweaks
 
 2018/11/06, Tue
 - [x] add links to github code on portfolio images

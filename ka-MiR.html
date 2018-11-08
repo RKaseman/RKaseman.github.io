@@ -7,15 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EoaC--Khan Academy Project: Make it Rain</title>
-
     <!-- JQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Handlebars -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js">
-    </script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
+    <!-- defaults -->
     <link rel="stylesheet" type="text/css" href="./assets/css/EMreset.css">
     <link href="https://fonts.googleapis.com/css?family=Poly%7cGaldeano" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -74,11 +70,9 @@
     <script src="./assets/javascript/module-head-foot.js"></script>
     <script src="./assets/javascript/ka-MiR.js"></script>
 
-    <script type="application/javascript">
-        //get the canvas that Processing-js will use
+    <script>
         var canvas = document.getElementById("mycanvas");
-            //pass the function sketchProc (defined in myCode.js) to Processing's constructor.
-            var processingInstance = new Processing(canvas, sketchProc);
+        var processingInstance = new Processing(canvas, sketchProc);
     </script>
 
 </body>
