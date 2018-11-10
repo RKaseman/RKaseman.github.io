@@ -8,8 +8,11 @@ I started working on fixes and improvements because bootcamp is over. I'm having
 
 ### **Next:**
 
-2018/11/09, Fri
+2018/11/10, Sat
 - [ ] refactor Unit-4-game, Crystal Collector, cont.
+
+2018/11/09, Fri
+- [x] refactor Unit-4-game, Crystal Collector, cont.
 
 2018/11/08, Thu
 - [x] refactor Unit-4-game, Crystal Collector, cont.
