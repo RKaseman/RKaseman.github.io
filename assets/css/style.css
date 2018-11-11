@@ -4,6 +4,10 @@
     background-color: #bcbcbc;
 }
 
+em {
+    font-style: italic;
+}
+
 html, body {
     background-image: url("../images/binding_dark.png");
     background-color: #464646;
