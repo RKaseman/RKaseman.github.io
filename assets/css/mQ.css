@@ -23,20 +23,6 @@
         font-size: 1.0em;
     }
 
-    section {
-        width: 88%;
-    }
-
-    .contact {
-        font-size: 1.8em;
-        padding: 32px;
-    }
-
-    .spacer {
-        margin: 32px;
-        padding: 32px;
-    }
-
     #mycanvas {
         width: 300px;
     }
@@ -44,10 +30,6 @@
 }
 
 @media only screen and (max-width: 640px) {
-
-    section {
-        width: 88%;
-    }
 
     h2 {
         height: 72px;
@@ -112,10 +94,7 @@
     }
 
     .img {
-        display: block;
-        float: none;
-        width: 40%;
-        margin: 32px auto;
+        width: 48%;
     }
 
     .imgProject {
@@ -128,19 +107,6 @@
 
     .contact {
         font-size: 1.0em;
-        padding: 24px;
-    }
-
-    .spacer {
-        margin: 24px;
-        padding: 24px;
-    }
-
-    .displayCase {
-        display: block;
-        float: none;
-        text-align: center;
-        margin: 0px auto;
     }
 
     #mycanvas {
@@ -163,10 +129,6 @@
 }
 
 @media only screen and (max-width: 320px) {
-
-    section {
-        width: 96%;
-    }
 
     h2 {
         height: 96px;

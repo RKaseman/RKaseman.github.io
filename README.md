@@ -7,9 +7,13 @@ Welcome to my nook of GitHub.
 I started working on fixes and improvements because bootcamp is over. I'm having a great time trying things and tweaking things and generally figuring out what I overlooked or didn't realize the first time through.
 
 ### **Next:**
+2018/11/11, Mon
+- [ ] refactor Unit-4-game, Crystal Collector, cont.
+
+#### --------
 
 2018/11/10, Sun
-- [ ] refactor Unit-4-game, Crystal Collector, cont.
+- [x] media query fixes, cont.
 
 2018/11/10, Sat
 - [x] media query fixes, cont.
@@ -21,14 +25,12 @@ I started working on fixes and improvements because bootcamp is over. I'm having
 - [x] refactor Unit-4-game, Crystal Collector, cont.
 
 2018/11/07, Wed
-- [x] refactor Unit-4-game, Crystal Collector, cont.
 - [x] code appearance tweaks
+- [x] refactor Unit-4-game, Crystal Collector, cont.
 
 2018/11/06, Tue
 - [x] add links to github code on portfolio images
 - [x] refactor Unit-4-game, Crystal Collector, cont.
-
-#### **--------**
 
 2018/11/05, Mon
 - [x] refactor Unit-4-game, Crystal Collector
