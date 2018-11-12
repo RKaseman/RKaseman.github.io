@@ -1,0 +1,61 @@
+
+@media only screen and (max-width: 980px) {
+
+    body {
+        width: 72%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        width: 96%;
+    }
+
+    table {
+        font-size: 0.8em;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 448px) {
+
+    body {
+        padding: 0 8px 16px 8px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    .note {
+        font-size: 0.5em;
+    }
+
+    table {
+        font-size: 0.6em;
+    }
+
+    td {
+        line-height: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
+
