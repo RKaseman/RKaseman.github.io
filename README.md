@@ -7,12 +7,12 @@ Welcome to my nook of GitHub.
 I started working on fixes and improvements because bootcamp is over. I'm having a great time trying things and tweaking things and generally figuring out what I overlooked or didn't realize the first time through.
 
 ### **Next:**
-2018/11/11, Mon
+2018/11/12, Mon
 - [ ] refactor Unit-4-game, Crystal Collector, cont.
 
 #### --------
 
-2018/11/10, Sun
+2018/11/11, Sun
 - [x] media query fixes, cont.
 
 2018/11/10, Sat
