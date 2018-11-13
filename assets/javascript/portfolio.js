@@ -3,10 +3,10 @@ $(function () {
 
     var portfolio = [
         {
-            codeURL: "https://rkaseman.github.io/unit-04-game-crystal-collector/",
+            codeURL: "https://github.com/RKaseman/Unit-4-game",
             image: "./assets/images/crystal_Collector_Game.png",
             alt: "Training 1",
-            url: "https://rkaseman.github.io/Unit-4-game/",
+            url: "https://rkaseman.github.io/unit-04-game-crystal-collector/",
             target: "_blank",
             urlText: "Something's Fishy"
         },
