@@ -6,13 +6,18 @@ Welcome to my nook of GitHub.
 
 I started working on fixes and improvements because bootcamp is over. I'm having a great time trying things and tweaking things and generally figuring out what I overlooked or didn't realize the first time through.
 
-One of those things is how media queries cascade through the various sizes. That's one of the reasons I've spent a lot of time doing media query fixes and was able to eliminate a lot of redundant css code. It was also interesting to me that a css reset affects things like `<ol>`, `<strong>` or `<em>` tags.
+One of those things is how media queries cascade through the various sizes. That's one of the reasons I've spent a lot of time doing media query fixes and was able to eliminate a lot of redundant css code. It was also interesting to me that a css reset affects things like `<ol>`, `<strong>` or `<em>` tags and borders of tables, so I learned about "unset". That's useful.
 
 ### **Next:**
+2018/11/13, Tue
+- [ ] refactor Unit-4-game, Crystal Collector, cont.
+- [ ] refactor Unit-7-program, Train Scheduler, cont.
+
 2018/11/12, Mon
 - [x] wiki code media query fixes, cont.
 - [x] code appearance tweaks
-- [ ] refactor Unit-4-game, Crystal Collector, cont.
+- [x] refactor Unit-4-game, Crystal Collector, cont.
+- [x] refactor Unit-7-program, Train Scheduler
 
 #### --------
 
