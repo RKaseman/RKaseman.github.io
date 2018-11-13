@@ -3,7 +3,7 @@ $(function () {
 
     var portfolio = [
         {
-            codeURL: "https://github.com/RKaseman/Unit-4-game",
+            codeURL: "https://github.com/RKaseman/unit-04-game-crystal-collector",
             image: "./assets/images/crystal_Collector_Game.png",
             alt: "Training 1",
             url: "https://rkaseman.github.io/unit-04-game-crystal-collector/",
