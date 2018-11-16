@@ -10,8 +10,11 @@ One of those things is how media queries cascade through the various sizes. That
 
 ### **Next:**
 
+2018/11/15, Thu
+- [x] day off
+
 2018/11/14, Wed
-- [ ] demo day for Unit-4-game, Crystal Collector
+- [x] demo day for Unit-4-game, Crystal Collector
 
 2018/11/13, Tue
 - [x] refactor Unit-4-game, Crystal Collector, complete
