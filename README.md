@@ -10,8 +10,11 @@ One of those things is how media queries cascade through the various sizes. That
 
 ### **Next:**
 
+2018/11/17, Sat
+- [ ] add more wiki code
+
 2018/11/16, Fri
-- [ ] refactor of Unit-4-game, Crystal Collector
+- [x] job interview
 
 2018/11/15, Thu
 - [x] more refactor of Unit-4-game, Crystal Collector
