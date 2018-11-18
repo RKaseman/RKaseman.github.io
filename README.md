@@ -10,8 +10,11 @@ One of those things is how media queries cascade through the various sizes. That
 
 ### **Next:**
 
-2018/11/17, Sat
+2018/11/18, Sun
 - [ ] add more wiki code
+
+2018/11/17, Sat
+- [x] add more wiki code
 
 2018/11/16, Fri
 - [x] job interview
