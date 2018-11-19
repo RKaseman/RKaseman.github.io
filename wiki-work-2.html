@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EoaC--Pseudo-Coder</title>
+    <!-- css reset -->
+    <link rel="stylesheet" type="text/css" href="assets/css/EMreset.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poly%7cMerienda%7cGaldeano" rel="stylesheet">
+    <!-- custom style -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/wiki-work.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/mQ-wiki-work.css">
+</head>
+
+<body>
+    <header>
+        <h1>Transmitter Control</h1>
+    </header>
+
+    <h2>Emergencies</h2>
+
+    <h3>For transmitter issues during or close to normal business hours call:</h3>
+
+    <table>
+        <tbody>
+            <tr>
+                <td><strong>Xxxx Xxxxx</strong></td>
+                <td>x####</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>For transmitter issues evenings or overnight the priority call order is:</h3>
+
+    <table>
+        <tbody>
+            <tr>
+                <td><strong>Engineer on duty</strong></td>
+                <td>x####</td>
+            </tr>
+            <tr>
+                <td><strong>Xxxx Xxxxxxxx</strong></td>
+                <td>###‐###‐### cell<br/>###‐###‐### home</td>
+            </tr>
+            <tr>
+                <td><strong>Xxxx Xxxxx</strong></td>
+                <td>###‐###‐#### cell<br/>###‐###‐#### home</td>
+            </tr>
+            <tr>
+                <td><strong>Xxxx Xxxxx</strong></td>
+                <td>###‐###‐#### cell<br/>###‐###‐#### home</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h4>Available Options for Transmitter Control and Monitoring</h4>
+
+    <p>There are two program options to control the Main and Backup transmitters.</p>
+
+    <ul>
+        <li>Control 1 - Axess (Statmon)</li>
+        <li>Control 2 - Harris eCDi</li>
+    </ul>
+
+    <p>There are three program options to monitor the transmitter.</p>
+
+    <ul>
+        <li>Monitor 1 - Axess (Statmon)</li>
+        <li>Monitor 2 - Harris eCDi</li>
+        <li>Monitor 3 - WVRC-4 Remote Control</li>
+    </ul>
+
+    <h3>Axess (Statmon) - Main Control &amp; Monitor Program for the Transmitter</h3>
+
+    <ul>
+        <li>Login User Name: xxxxxx | Password: xxxxxx</li>
+    </ul>
+
+    <p>Both the Main and Backup transmitters are controlled within this program.</p>
+    <p>The Main and Backup transmitters are assigned individual, redundant paths in Axess: <span class="red">Red</span> or <span class="blue">Blue</span>. The significant difference between the paths is the wavelength of the link between KCNC and the transmitter site.</p>
+
+    <p><em>Why do the colors matter?</em> Switching one point in the chain -- <span class="red">Red</span>/<span class="blue">Blue</span>, <span class="red">7Ghz</span>/<span class="blue">13GHz</span>, or exciter <span class="red">A</span>/<span class="blue">B</span> -- switches all points in the chain</p>
+
+    <table class="xPaths">
+        <tbody>
+            <tr>
+                <td><span class="red">Red (Main)</span> path</td>
+                <td>=</td>
+                <td>7GHz</td>
+                <td>=</td>
+                <td>exciter A</td>
+            </tr>
+            <tr>
+                <td><span class="blue">Blue (Backup)</span> path</td>
+                <td>=</td>
+                <td>13GHz</td>
+                <td>=</td>
+                <td>exciter B</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p><em>Why does the wavelength matter?</em> The Red/7GHz transmission path is less susceptible to weather interference such as rain fade.</p>
+    <p>A beacon is visible in master control that matches the <span class="red">Red</span> or <span class="blue">Blue</span> path color on-air. The beacon turns yellow to indicate problems.</p>
+
+    <h4>Axess (Statmon) computer</h4>
+
+    <p>The Axess Login Screen opens when the computer is started or rebooted.</p>
+
+    <p><strong>DO NOT REBOOT THE COMPUTER</strong> without reading these instructions.</p>
+
+    <p class="placeholder">Image<br/>Here</p>
+
+    <div class="caption">
+        Axess (Statmon) Login Screen
+    </div>
+
+    <p>Click the circled buttons to turn the transmitter off or on.</p>
+
+    <p class="note">Note: Only ONE transmitter should be powered on at any time. To switch between transmitters power off the active transmitter then power up the new choice.</p>
+
+    <h4>Axess (Statmon) Transmitter Path Switch <span class="red">Red</span> or <span class="blue">Blue</span></h4>
+
+    <p>Click the circled buttons to switch to the <span class="red"></span>Red</span> or <span class="blue">Blue</span> transmission path. The switch automatically changes every point in the chain.</p>
+
+    <table class="xPaths">
+        <tbody>
+            <tr>
+                <td><span class="red">Red (Main)</span> path</td>
+                <td>=</td>
+                <td>7GHz</td>
+                <td>=</td>
+                <td>exciter A</td>
+            </tr>
+            <tr>
+                <td><span class="blue">Blue (Backup)</span> path</td>
+                <td>=</td>
+                <td>13GHz</td>
+                <td>=</td>
+                <td>exciter B</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p class="note">Reminder: The Red/7GHz transmission path is less susceptible to weather interference such as rain fade.</p>
+
+    <p class="placeholder">Image<br/>Here</p>
+
+    <div class="caption">
+        Axess (Statmon) Page 1
+    </div>
+
+    <h4>Axess (Statmon) Transmitter Status - Main Tx</h4>
+
+    <p>Status page 1 indicates the on-air status and condition of the <span class="red">Red</span> path. All indicators should read Red (Main Tx) or Blue (Backup Tx) according to which transmitter is active.</p>
+
+    <p class="note">Note: Only ONE transmitter should be powered on at any time. To switch between transmitters power off the active transmitter then power up the new choice.</p>
+
+    <p class="placeholder">Image<br/>Here</p>
+
+    <div class="caption">
+        Axess (Statmon) Main Tx
+    </div>
+
+    <h4>Axess (Statmon) Transmitter Status - Backup Tx</h4>
+
+    <p>Status page 2 indicates the on-air status and condition of the <span class="blue">Blue</span> path. All indicators should read Red (Main Tx) or Blue (Backup Tx) according to which transmitter is active.</p>
+
+    <p class="note">Note: Only ONE transmitter should be powered on at any time. To switch between transmitters power off the active transmitter then power up the new choice.</p>
+
+    <p class="placeholder">Image<br/>Here</p>
+
+    <div class="caption">
+        Axess (Statmon) Backup Tx
+    </div>
+
+    <h4>Axess (Statmon) Reboot</h4>
+
+    <p>A companion program of Axess has to be closed before the computer can be safely rebooted. It is located in the tray with the computer clock in the lower right corner.</p>
+
+    <p class="placeholder">Image<br/>Here</p>
+
+    <div class="caption">
+        StcBase Database Manager
+    </div>
+
+    <p>When the StcBase Database Manager program is closed, close Axess and reboot the computer. Axess and StcBase Database Manager should both start automatically when the computer reboots.</p>
+
+    <h3>Harris eCDi - Backup Control &amp; Monitor Program for the Transmitter</h3>
+
+    <p>The Harris eCDi controller has separate ip addresses for control of the Main and Backup transmitters.</p>
+
+    <ul>
+        <li>http://###.###.###.###/ - eCDi Main TX</li>
+        <li>http://###.###.###.###/ - eCDi Backup TX</li>
+        <li>Login User Name: xxxxxx | Password: xxxxxx</li>
+    </ul>
+
+    <p>The Harris eCDi controller does <strong><em>not</em></strong> automatically switch every point in the chain like Axess does. Manual exciter switches are necessary.</p>
+
+    <h4>Harris eCDi Transmitter Power</h4>
+
+    <p>Power buttons are located on the Home screen.</p>
+
+    <p>Click the <span class="buttonBorder">OFF</span> or <span class="buttonBorder">BEAM ON</span> buttons to turn the transmitter off or on.</p>
+
+    <p class="placeholder">Image<br/>Here</p>
+
+    <div class="caption">
+        Harris eCDi Transmitter Off/On
+    </div>
+
+    <h4>Harris eCDi Transmitter Path Switch Red or Blue</h4>
+
+    <p>To switch between exciter A (<span class="red">Red</span> path) or B (<span class="blue">Blue</span> path) go to the <strong>Drive</strong> screen and click the <span class="buttonBorder">Control</span> button. The active on-air exciter is highlighted <span class="green">green</span>.</p>
+
+    <p>The Harris eCDi controller does <strong><em>not</em></strong> automatically switch every point in the chain like Axess does. Manual exciter switches are necessary. The end result should be the same as the Axcess control program:</p>
+
+    <table class="xPaths">
+        <tbody>
+            <tr>
+                <td><span class="red">Red (Main)</span> path</td>
+                <td>=</td>
+                <td>7GHz</td>
+                <td>=</td>
+                <td>exciter A</td>
+            </tr>
+            <tr>
+                <td><span class="blue">Blue (Backup)</span> path</td>
+                <td>=</td>
+                <td>13GHz</td>
+                <td>=</td>
+                <td>exciter B</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h4>WVRC-4 - Transmitter Power Monitor only</h4>
+
+    <p>If Axess (Statmon) and eCDi transmitter control aren't working the third option is the simple monitoring program WVRC-4. It provides the transmitter power level percentage and tower light status.</p>
+
+    <ul>
+        <li>http://###.###.###.###/ - WVRC-4 Remote Control</li>
+    </ul>
+
+    <p>Entering the address into Internet Explorer opens a popup window that displays WVRC-4 Remote Control.</p>
+
+    <p class="placeholder">Image<br/>Here</p>
+
+    <div class="caption">
+        WVRC-4 Remote Control
+    </div>
+
+</body>
+
+</html>
+
