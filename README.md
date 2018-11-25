@@ -11,6 +11,8 @@ I went through a coding bootcamp and since it ended I've been working on improve
 #
 Complete (for now) projects:
 #
-- [Crystal Collector](https://rkaseman.github.io/unit-04-game-crystal-collector/)
-- [Code](https://github.com/RKaseman/unit-04-game-crystal-collector)
+
+[Crystal Collector](https://rkaseman.github.io/unit-04-game-crystal-collector/)
+
+[Code](https://github.com/RKaseman/unit-04-game-crystal-collector)
 
