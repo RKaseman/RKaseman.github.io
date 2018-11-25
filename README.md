@@ -13,5 +13,4 @@ I got my certification through [The University of Denver's Full Stack Coding Boo
 [Something's Fishy: A Crystal Collector Game](https://rkaseman.github.io/unit-04-game-crystal-collector/)
 |
 [Code](https://github.com/RKaseman/unit-04-game-crystal-collector)
-
 #
