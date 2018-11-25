@@ -42,10 +42,12 @@
             <script id="portfolio-template" type="text/x-handlebars-template">
                 {{#each this}}
                     <div class="imgProject">
-                        <a href="{{codeURL}}" class="borderHover">
+                        <a href="{{codeURL}}">
                             <img src="{{image}}" class="effect" alt="{{alt}}">
                         </a>
-                        <a href="{{url}}" class="label" target="{{target}}">{{urlText}}</a>
+                        <a href="{{url}}" class="label" target="{{target}}">
+                            {{urlText}}
+                        </a>
                     </div>
                 {{/each}}
             </script>

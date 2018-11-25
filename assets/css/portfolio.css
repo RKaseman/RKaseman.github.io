@@ -32,5 +32,5 @@ a.label {
 }
 
 a.label:hover {
-    box-shadow: 0px 0px 8px 4px #4682b4;
+    color: #4682b4;
 }
