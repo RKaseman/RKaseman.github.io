@@ -26,11 +26,11 @@ $(function () {
         },
         {
             url: "https://github.com/RKaseman",
-            urlText: "gitHub"
+            urlText: "GitHub"
         },
         {
             url: "https://www.linkedin.com/in/rmkaseman-evolution-of-a-coder/",
-            urlText: "linkedIn"
+            urlText: "LinkedIn"
         }
     ];
     var footerTemplate = Handlebars.compile($("#footer-template").html());

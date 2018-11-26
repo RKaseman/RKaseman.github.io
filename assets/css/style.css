@@ -121,6 +121,10 @@ footer {
     padding: 12px 0px;
 }
 
+.navFooter {
+    background-color: initial;
+}
+
 /* index */
 
 #bio {
