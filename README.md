@@ -22,3 +22,5 @@ personal pages brought to you by:
 [Code](https://github.com/RKaseman/unit-04-game-crystal-collector)
 
 [Wiki/Microsoft SharePoint example #1](https://rkaseman.github.io/wiki-work.html)
+
+[Wiki/Microsoft SharePoint example #2](https://rkaseman.github.io/wiki-work-2.html)

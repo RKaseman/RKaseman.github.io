@@ -21,6 +21,10 @@
 
 @media only screen and (max-width: 640px) {
 
+    table {
+        font-size: 0.7em;
+    }
+
 }
 
 @media only screen and (max-width: 448px) {
@@ -52,10 +56,6 @@
     td {
         line-height: 16px;
     }
-
-}
-
-@media only screen and (max-width: 320px) {
 
 }
 
