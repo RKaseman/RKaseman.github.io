@@ -57,7 +57,7 @@
         <br>
         <script id="footer-template" type="text/x-handlebars-template">
             {{#each this}}
-                <a href="{{url}}" class="navLink">{{urlText}}</a>
+                <a href="{{url}}" class="navLink navFooter">{{urlText}}</a>
             {{/each}}
         </script>
     </footer>
@@ -66,11 +66,9 @@
     <script src="./assets/javascript/module-head-foot.js"></script>
     <script src="./assets/javascript/ka-BaH.js"></script>
 
-    <script type="application/javascript">
-        //get the canvas that Processing-js will use
+    <script>
         var canvas = document.getElementById("mycanvas");
-            //pass the function sketchProc (defined in myCode.js) to Processing's constructor.
-            var processingInstance = new Processing(canvas, sketchProc);
+        var processingInstance = new Processing(canvas, sketchProc);
     </script>
 
 </body>
