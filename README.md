@@ -21,12 +21,14 @@ personal pages brought to you by:
 #
 #### What I'm working on now:
 
-[Are You Psychic? - A Letter Guess Game](https://rkaseman.github.io/unit-03-game-psychic/)
-|
-[Code](https://github.com/RKaseman/unit-03-game-psychic)
+A [Scratch](https://scratch.mit.edu/) project for my Coding with Kids classes.
 
 #
 #### Complete projects...but not really because there's _always_ something to improve:
+
+[Are You Psychic? - A Letter Guess Game](https://rkaseman.github.io/unit-03-game-psychic/)
+|
+[Code](https://github.com/RKaseman/unit-03-game-psychic)
 
 [Something's Fishy: A Crystal Collector Game](https://rkaseman.github.io/unit-04-game-crystal-collector/)
 |
