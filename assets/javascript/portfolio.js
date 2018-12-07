@@ -11,9 +11,17 @@ $(function () {
             urlText: "Something's Fishy"
         },
         {
+            codeURL: "https://github.com/RKaseman/unit-03-game-psychic",
+            image: "./assets/images/unit-03-psychic-game.png",
+            alt: "Training 2",
+            url: "https://rkaseman.github.io/unit-03-game-psychic/",
+            target: "_blank",
+            urlText: "Can You Guess The Name?"
+        },
+        {
             codeURL: "https://github.com/RKaseman/Trivia-Game",
             image: "./assets/images/Shoegazer_NameThatBand.png",
-            alt: "Training 2",
+            alt: "Training 3",
             url: "https://rkaseman.github.io/Trivia-Game/",
             target: "_blank",
             urlText: "Ode to the Underrated"
@@ -21,7 +29,7 @@ $(function () {
         {
             codeURL: "https://github.com/RKaseman/GIPHY-Page",
             image: "./assets/images/women_by_giphy.png",
-            alt: "Training 3",
+            alt: "Training 4",
             url: "https://rkaseman.github.io/GIPHY-Page/",
             target: "_blank",
             urlText: "Cheeky Fun"
