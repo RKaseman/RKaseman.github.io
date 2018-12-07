@@ -3,20 +3,20 @@ $(function () {
 
     var portfolio = [
         {
-            codeURL: "https://github.com/RKaseman/unit-04-game-crystal-collector",
-            image: "./assets/images/crystal_Collector_Game_new.png",
-            alt: "Training 1",
-            url: "https://rkaseman.github.io/unit-04-game-crystal-collector/",
-            target: "_blank",
-            urlText: "Something's Fishy"
-        },
-        {
             codeURL: "https://github.com/RKaseman/unit-03-game-psychic",
             image: "./assets/images/unit-03-psychic-game.png",
-            alt: "Training 2",
+            alt: "Training 1",
             url: "https://rkaseman.github.io/unit-03-game-psychic/",
             target: "_blank",
             urlText: "Can You Guess The Name?"
+        },
+        {
+            codeURL: "https://github.com/RKaseman/unit-04-game-crystal-collector",
+            image: "./assets/images/crystal_Collector_Game_new.png",
+            alt: "Training 2",
+            url: "https://rkaseman.github.io/unit-04-game-crystal-collector/",
+            target: "_blank",
+            urlText: "Something's Fishy"
         },
         {
             codeURL: "https://github.com/RKaseman/Trivia-Game",
