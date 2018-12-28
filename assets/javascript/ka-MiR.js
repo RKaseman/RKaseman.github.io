@@ -4,7 +4,6 @@ var sketchProc = function (processingInstance) {
         size(400, 400);
         frameRate(30);
 
-        //A Sparkly, Snowy Night for the KA Avatar "spunky-sam" ... wait for it!
         var xPositions = [random(0)];
         var yPositions = [random(0)];
 
@@ -56,8 +55,7 @@ var sketchProc = function (processingInstance) {
                     yPositions.push(1);
 
                     //array length stops & juggles around 500, stopping snow saturation.
-                    //sparkling snowfall starts. author has no clue why
-                    //the sparkles happen, but it's a cool effect to discover
+                    //sparkling snowfall starts.
 
                     if (xPositions.length > 500) {
                         xPositions.length = xPositions.length - 8;
