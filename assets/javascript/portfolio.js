@@ -3,10 +3,10 @@ $(function () {
 
     var portfolio = [
         {
-            codeURL: "https://github.com/RKaseman/unit-03-game-psychic",
+            codeURL: "https://github.com/RKaseman/unit-03-game-letter-guess",
             image: "./assets/images/unit-03-psychic-game.png",
             alt: "Training 1",
-            url: "https://rkaseman.github.io/unit-03-game-psychic/",
+            url: "https://rkaseman.github.io/unit-03-game-letter-guess/",
             target: "_blank",
             urlText: "Can You Guess The Name?"
         },
