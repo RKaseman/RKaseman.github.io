@@ -23,7 +23,7 @@
         font-size: 1.0em;
     }
 
-    #mycanvas {
+    #the-canvas {
         width: 300px;
     }
 
@@ -52,18 +52,18 @@
         padding: 24px;
     }
 
-    .displayCase {
+    .display-case {
         display: block;
         float: none;
         text-align: center;
         margin: 0px auto;
     }
 
-    #mycanvas {
+    #the-canvas {
         width: 256px;
     }
 
-    .canvasKApJS {
+    .canvas-ka {
         margin: 40px auto;
     }
 
@@ -97,7 +97,7 @@
         width: 48%;
     }
 
-    .imgProject {
+    .img-project {
         margin: 32px auto;
     }
 
@@ -109,11 +109,11 @@
         font-size: 1.0em;
     }
 
-    #mycanvas {
+    #the-canvas {
         width: 200px;
     }
 
-    .canvasKApJS {
+    .canvas-ka {
         margin: 40px auto;
     }
 

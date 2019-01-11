@@ -117,7 +117,7 @@ $(function () {
     ];
 
     var portfolioTemplate = Handlebars.compile($("#portfolio-template").html());
-    $("#mQcenter").append(portfolioTemplate(portfolio));
+    $("#mq-center").append(portfolioTemplate(portfolio));
 
 });
 

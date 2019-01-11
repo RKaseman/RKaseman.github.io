@@ -27,7 +27,7 @@
         <nav id="header">
             <script id="header-template" type="text/x-handlebars-template">
                 {{#each this}}
-                    <a href="{{url}}" class="navLink">{{urlText}}</a>
+                    <a href="{{url}}" class="nav-link">{{urlText}}</a>
                 {{/each}}
             </script>
         </nav>
@@ -38,8 +38,8 @@
             <h2>Khan Academy Project: Build-a-House</h2>
         </div>
 
-        <div class="displayCase">
-            <canvas id="mycanvas" class="canvasKApJS"></canvas>
+        <div class="display-case">
+            <canvas id="the-canvas" class="canvas-ka"></canvas>
         </div>
 
         <div id="bio">
@@ -57,7 +57,7 @@
         <br>
         <script id="footer-template" type="text/x-handlebars-template">
             {{#each this}}
-                <a href="{{url}}" class="navLink navFooter">{{urlText}}</a>
+                <a href="{{url}}" class="nav-link nav-footer">{{urlText}}</a>
             {{/each}}
         </script>
     </footer>
@@ -67,7 +67,7 @@
     <script src="./assets/javascript/ka-BaH.js"></script>
 
     <script>
-        var canvas = document.getElementById("mycanvas");
+        var canvas = document.getElementById("the-canvas");
         var processingInstance = new Processing(canvas, sketchProc);
     </script>
 

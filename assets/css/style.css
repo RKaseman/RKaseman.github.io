@@ -17,7 +17,7 @@ html, body {
 
 /* links */
 
-.navLink {
+.nav-link {
     border-left: 1px solid #8888dd;
     border-right: 1px solid #8888dd;
     padding: 2px;
@@ -32,7 +32,7 @@ a:link, a:visited {
     color: #112288;
 }
 
-a.navLink:hover {
+a.nav-link:hover {
     background-color: #00008b;
     color: #add8e6;
 }
@@ -70,7 +70,7 @@ nav {
     border-right: 2px solid #4682b4;
 }
 
-nav, .navLink {
+nav, .nav-link {
     background-color: #add8e6;
     color: #00008b;
 }    
@@ -93,7 +93,7 @@ h2 {
     border-bottom: 4px solid #4682b4;
 }
 
-#mQcenter {
+#mq-center {
     text-align: center;
 }
 
@@ -121,7 +121,7 @@ footer {
     padding: 12px 0px;
 }
 
-.navFooter {
+.nav-footer {
     background-color: initial;
 }
 
@@ -131,7 +131,7 @@ footer {
     margin: 32px 0px;
 }
 
-.img {
+.bio-pic {
     float: left;
     width: 16%;
     margin: 40px 32px 16px 0px;

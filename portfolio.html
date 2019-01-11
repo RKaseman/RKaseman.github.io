@@ -27,7 +27,7 @@
         <nav id="header">
             <script id="header-template" type="text/x-handlebars-template">
                 {{#each this}}
-                    <a href="{{url}}" class="navLink">{{urlText}}</a>
+                    <a href="{{url}}" class="nav-link">{{urlText}}</a>
                 {{/each}}
             </script>
         </nav>
@@ -38,10 +38,10 @@
             <h2>Evolution of a Coder's Work</h2>
         </div>
 
-        <div id="mQcenter">
+        <div id="mq-center">
             <script id="portfolio-template" type="text/x-handlebars-template">
                 {{#each this}}
-                    <div class="imgProject">
+                    <div class="img-project">
                         <a href="{{codeURL}}">
                             <img src="{{image}}" class="effect" alt="{{alt}}">
                         </a>
@@ -59,7 +59,7 @@
         <br>
         <script id="footer-template" type="text/x-handlebars-template">
             {{#each this}}
-                <a href="{{url}}" class="navLink navFooter">{{urlText}}</a>
+                <a href="{{url}}" class="nav-link nav-footer">{{urlText}}</a>
             {{/each}}
         </script>
     </footer>

@@ -1,10 +1,10 @@
 
-.displayCase {
+.display-case {
     float: left;
     position: relative;
 }
 
-.canvasKApJS {
+.canvas-ka {
     /* processing canvas position */
     margin: 40px 32px 16px 0px;
 }

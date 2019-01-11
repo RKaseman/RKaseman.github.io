@@ -27,7 +27,7 @@
         <nav id="header">
             <script id="header-template" type="text/x-handlebars-template">
                 {{#each this}}
-                    <a href="{{url}}" class="navLink">{{urlText}}</a>
+                    <a href="{{url}}" class="nav-link">{{urlText}}</a>
                 {{/each}}
             </script>
         </nav>
@@ -52,10 +52,10 @@
                 The code was copied directly from SharePoint's HTML editor into a Word document. When I was ready to add it to my portfolio I copied it from the Word document into VSCode, saw all of the warnings it generated and outdated, inline style tags it contained, and got to noting and fixing the worst offenders -- because I'll never push files that contain editor error warnings, and troubleshooting is a fun puzzle.
             </p>
             <p>
-                <a href="./wiki-work.html" class="navlink">This is what it should look like.</a>
+                <a href="./wiki-work.html" class="nav-link">This is what it should look like.</a>
             </p>
             <p>
-                <a href="./wiki-work-2.html" class="navlink">Another sample</a>
+                <a href="./wiki-work-2.html" class="nav-link">Another sample</a>
             </p>
             <p>
                 This is what I got:
@@ -389,7 +389,7 @@
         <br>
         <script id="footer-template" type="text/x-handlebars-template">
             {{#each this}}
-                <a href="{{url}}" class="navLink navFooter">{{urlText}}</a>
+                <a href="{{url}}" class="nav-link nav-footer">{{urlText}}</a>
             {{/each}}
         </script>
     </footer>
