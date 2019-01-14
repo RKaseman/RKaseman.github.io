@@ -31,8 +31,8 @@ personal pages brought to you by:
 |
 [Code](https://github.com/RKaseman/unit-04-game-crystal-collector)
 
-#### I finally found the Javascript that goes with these files, so it'll be added asap:
+#### I finally found my try at Javascript that goes with these files and added it to Sample 2:
 
-[Wiki/Microsoft SharePoint example #1](https://rkaseman.github.io/wiki-work.html)
+[Wiki/Microsoft SharePoint Sample 1](https://rkaseman.github.io/wiki-work.html)
 
-[Wiki/Microsoft SharePoint example #2](https://rkaseman.github.io/wiki-work-2.html)
+[Wiki/Microsoft SharePoint Sample 2](https://rkaseman.github.io/wiki-work-2.html)
