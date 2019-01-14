@@ -14,7 +14,7 @@ strong {
 }
 
 html {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     background-color: #ababab;
     margin: auto;
 }
@@ -26,8 +26,6 @@ body {
     padding: 0 64px 32px 64px;
 }
 
-/* header */
-
 header {
     text-align: center;
     border: 2px solid #1122bb;
@@ -35,7 +33,7 @@ header {
 }
 
 h1, h2 {
-    font-family: 'Poly', Times, "Times New Roman", serif;
+    font-family: "Poly", Times, "Times New Roman", serif;
     color: #1122bb;
 }
 
@@ -46,7 +44,7 @@ h1 {
     background: #dedede;
 }
 
-h2, h3, h4 {
+h2, h3 {
     line-height: 64px;
     font-weight: 600;
 }
@@ -59,11 +57,6 @@ h2 {
 h3 {
     font-size: 1.25em;
     text-decoration: underline;
-}
-
-h4 {
-    font-size: 1em;
-    border-bottom: 1px solid #1122bb;
 }
 
 ol {
@@ -95,7 +88,7 @@ table {
     width: 50%;
     font-size: 0.9em;
     border: 2px solid #1122bb;
-    margin: auto;
+    margin: 8px auto;
     padding: 1px;
 }
 
@@ -167,3 +160,32 @@ p.placeholder {
 .blue {
     color: #0000ee;
 }
+
+.expand {
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-size: 1.25em;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-top: 1px solid #1122bb;
+    border-bottom: 1px solid #1122bb;
+    padding: 16px 0;
+}
+
+.content {
+    display: none;
+    overflow: hidden;
+}
+
+.expand:after {
+    content: "\02795";
+    font-size: 1em;
+    float: right;
+}
+
+.active:after {
+    content: "\2796";
+}
+
