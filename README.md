@@ -4,7 +4,7 @@
 
 Welcome to my nook of GitHub.
 
-I'm a [Coding with Kids](https://www.codingwithkids.com/#!/) instructor and front end coder especially fond of the standard languages: HTML, CSS, and JavaScript (they can still do the job). I'm obsessed with [processing.js](http://processingjs.org/) on the side.
+I'm a [Coding with Kids](https://www.codingwithkids.com/#!/) instructor and front end coder especially fond of the standard languages: HTML, CSS, and JavaScript (they can still do the job). I'm obsessed with [Processing.js](http://processingjs.org/) on the side.
 
 I earned certification through [The University of Denver's Full Stack Coding Boot Camp](https://bootcamp.du.edu/coding/full-time/).
 
