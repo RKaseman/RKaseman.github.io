@@ -27,10 +27,10 @@ $(function () {
             urlText: "Ode to the Underrated"
         },
         {
-            codeURL: "https://github.com/RKaseman/GIPHY-Page",
+            codeURL: "https://github.com/RKaseman/unit-06-ajax",
             image: "./assets/images/women_by_giphy.png",
             alt: "Training 4",
-            url: "https://rkaseman.github.io/GIPHY-Page/",
+            url: "https://rkaseman.github.io/unit-06-ajax/",
             target: "_blank",
             urlText: "Cheeky Fun"
         },
